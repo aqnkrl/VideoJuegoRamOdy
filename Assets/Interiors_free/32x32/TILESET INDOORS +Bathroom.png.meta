@@ -1,0 +1,1300 @@
+fileFormatVersion: 2
+guid: 8619df5755137794190040c228178d77
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3410525074659382367
+    second: TILESET INDOORS +Bathroom_0
+  - first:
+      213: 4158113655088838931
+    second: TILESET INDOORS +Bathroom_1
+  - first:
+      213: 2799671410565252298
+    second: TILESET INDOORS +Bathroom_2
+  - first:
+      213: -3789218166861273797
+    second: TILESET INDOORS +Bathroom_3
+  - first:
+      213: 1393061292048185887
+    second: TILESET INDOORS +Bathroom_4
+  - first:
+      213: -4741224624021004086
+    second: TILESET INDOORS +Bathroom_5
+  - first:
+      213: -3519808303216944078
+    second: TILESET INDOORS +Bathroom_6
+  - first:
+      213: -2260109411447084613
+    second: TILESET INDOORS +Bathroom_7
+  - first:
+      213: 1872294011640466788
+    second: TILESET INDOORS +Bathroom_8
+  - first:
+      213: 6082200899504449465
+    second: TILESET INDOORS +Bathroom_9
+  - first:
+      213: -2872283222469109915
+    second: TILESET INDOORS +Bathroom_10
+  - first:
+      213: 6584441944616171316
+    second: TILESET INDOORS +Bathroom_11
+  - first:
+      213: -8863256087533813935
+    second: TILESET INDOORS +Bathroom_12
+  - first:
+      213: -2589136574982029553
+    second: TILESET INDOORS +Bathroom_13
+  - first:
+      213: 3366445778990815229
+    second: TILESET INDOORS +Bathroom_14
+  - first:
+      213: -6306147267119796372
+    second: TILESET INDOORS +Bathroom_15
+  - first:
+      213: -3235719340357739410
+    second: TILESET INDOORS +Bathroom_16
+  - first:
+      213: 2270549826488316130
+    second: TILESET INDOORS +Bathroom_17
+  - first:
+      213: 5211212747668694639
+    second: TILESET INDOORS +Bathroom_18
+  - first:
+      213: -443695075565624572
+    second: TILESET INDOORS +Bathroom_19
+  - first:
+      213: -7961096539195308830
+    second: TILESET INDOORS +Bathroom_20
+  - first:
+      213: -1735212678482969511
+    second: TILESET INDOORS +Bathroom_21
+  - first:
+      213: 3329740905215490747
+    second: TILESET INDOORS +Bathroom_22
+  - first:
+      213: 4809946186947489891
+    second: TILESET INDOORS +Bathroom_23
+  - first:
+      213: -7678955084033315257
+    second: TILESET INDOORS +Bathroom_24
+  - first:
+      213: 4483640272507968394
+    second: TILESET INDOORS +Bathroom_25
+  - first:
+      213: 4237465769544022444
+    second: TILESET INDOORS +Bathroom_26
+  - first:
+      213: -483640523332858127
+    second: TILESET INDOORS +Bathroom_27
+  - first:
+      213: 7297551393972041343
+    second: TILESET INDOORS +Bathroom_28
+  - first:
+      213: 5885010051036655716
+    second: TILESET INDOORS +Bathroom_29
+  - first:
+      213: -8705962179433756760
+    second: TILESET INDOORS +Bathroom_30
+  - first:
+      213: 5813172390910948882
+    second: TILESET INDOORS +Bathroom_31
+  - first:
+      213: -7474371469089684929
+    second: TILESET INDOORS +Bathroom_32
+  - first:
+      213: 4933562187506679590
+    second: TILESET INDOORS +Bathroom_33
+  - first:
+      213: 618779292629159832
+    second: TILESET INDOORS +Bathroom_34
+  - first:
+      213: -8524107220039968160
+    second: TILESET INDOORS +Bathroom_35
+  - first:
+      213: -2162323576868373668
+    second: TILESET INDOORS +Bathroom_36
+  - first:
+      213: -6390327939666528609
+    second: TILESET INDOORS +Bathroom_37
+  - first:
+      213: 1308140964983486954
+    second: TILESET INDOORS +Bathroom_38
+  - first:
+      213: 3675405448281791688
+    second: TILESET INDOORS +Bathroom_39
+  - first:
+      213: 3277230082582840697
+    second: TILESET INDOORS +Bathroom_40
+  - first:
+      213: -4790748650575191481
+    second: TILESET INDOORS +Bathroom_41
+  - first:
+      213: 3929941962203647478
+    second: TILESET INDOORS +Bathroom_42
+  - first:
+      213: -4791452820706536160
+    second: TILESET INDOORS +Bathroom_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 129
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5492a45c7e945f20800000000000000
+      internalID: 3410525074659382367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_1
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 256
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3197543b65694b930800000000000000
+      internalID: 4158113655088838931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 224
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac40f8a805e6ad620800000000000000
+      internalID: 2799671410565252298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_3
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 256
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35e6c3472ef96bc0800000000000000
+      internalID: -3789218166861273797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_4
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 256
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1af0e64dd5255310800000000000000
+      internalID: 1393061292048185887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_5
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 256
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac0a4e41359c33eb0800000000000000
+      internalID: -4741224624021004086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_6
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 256
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c98493ff0272fc0800000000000000
+      internalID: -3519808303216944078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_7
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 224
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9ed21077a72a0e0800000000000000
+      internalID: -2260109411447084613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_8
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 224
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46dcbe6db79bbf910800000000000000
+      internalID: 1872294011640466788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_9
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 224
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b726834e71586450800000000000000
+      internalID: 6082200899504449465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 191
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5671a6e80a99328d0800000000000000
+      internalID: -2872283222469109915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_11
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 224
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43777011013a06b50800000000000000
+      internalID: 6584441944616171316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_12
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 208
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f7a354c836ff480800000000000000
+      internalID: -8863256087533813935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_13
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 209
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f793db00a811cd0800000000000000
+      internalID: -2589136574982029553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_14
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 209
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df75c5c899408be20800000000000000
+      internalID: 3366445778990815229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_15
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 194
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f2602d8701c78a0800000000000000
+      internalID: -6306147267119796372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_16
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 198
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c9d1d476a6813d0800000000000000
+      internalID: -3235719340357739410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_17
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 191
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e039ac890d928f10800000000000000
+      internalID: 2270549826488316130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_18
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 192
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66a7c14262f15840800000000000000
+      internalID: 5211212747668694639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_19
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 209
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4032258fdada7d9f0800000000000000
+      internalID: -443695075565624572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_20
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 194
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e40ca690e0848190800000000000000
+      internalID: -7961096539195308830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_21
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 195
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95cb44133494be7e0800000000000000
+      internalID: -1735212678482969511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_22
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 160
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbaf47926bd953e20800000000000000
+      internalID: 3329740905215490747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_23
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 162
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360ffb5a29c50c240800000000000000
+      internalID: 4809946186947489891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_24
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 162
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ea302390fde6590800000000000000
+      internalID: -7678955084033315257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_25
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 135
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b197f8217193e30800000000000000
+      internalID: 4483640272507968394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_26
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 135
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca97c859aa08eca30800000000000000
+      internalID: 4237465769544022444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_27
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 141
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fec2c7a183c949f0800000000000000
+      internalID: -483640523332858127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_28
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 128
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f763cd7245c164560800000000000000
+      internalID: 7297551393972041343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_29
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 130
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460b4a71671cba150800000000000000
+      internalID: 5885010051036655716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_30
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 130
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a78dd226853e2780800000000000000
+      internalID: -8705962179433756760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_31
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 96
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 216fa527d798ca050800000000000000
+      internalID: 5813172390910948882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_32
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 101
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f324891ffb2b54890800000000000000
+      internalID: -7474371469089684929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_33
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 97
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f72af9ba8877440800000000000000
+      internalID: 4933562187506679590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_34
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 64
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f478bfc78569800800000000000000
+      internalID: 618779292629159832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_35
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 32
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06adc2265a944b980800000000000000
+      internalID: -8524107220039968160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_36
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 64
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5bfe4fc922edf1e0800000000000000
+      internalID: -2162323576868373668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_37
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 32
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f963ce5a89ef057a0800000000000000
+      internalID: -6390327939666528609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_38
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 64
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae93afdd643772210800000000000000
+      internalID: 1308140964983486954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_39
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 32
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc1f5638c9a10330800000000000000
+      internalID: 3675405448281791688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_40
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 38
+        width: 18
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9750397856f0b7d20800000000000000
+      internalID: 3277230082582840697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_41
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 38
+        width: 18
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742a84a1c77d38db0800000000000000
+      internalID: -4790748650575191481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_42
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 20
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fdcc059465f98630800000000000000
+      internalID: 3929941962203647478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET INDOORS +Bathroom_43
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 4
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0255eb7bb07518db0800000000000000
+      internalID: -4791452820706536160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TILESET INDOORS +Bathroom_0: 3410525074659382367
+      TILESET INDOORS +Bathroom_1: 4158113655088838931
+      TILESET INDOORS +Bathroom_10: -2872283222469109915
+      TILESET INDOORS +Bathroom_11: 6584441944616171316
+      TILESET INDOORS +Bathroom_12: -8863256087533813935
+      TILESET INDOORS +Bathroom_13: -2589136574982029553
+      TILESET INDOORS +Bathroom_14: 3366445778990815229
+      TILESET INDOORS +Bathroom_15: -6306147267119796372
+      TILESET INDOORS +Bathroom_16: -3235719340357739410
+      TILESET INDOORS +Bathroom_17: 2270549826488316130
+      TILESET INDOORS +Bathroom_18: 5211212747668694639
+      TILESET INDOORS +Bathroom_19: -443695075565624572
+      TILESET INDOORS +Bathroom_2: 2799671410565252298
+      TILESET INDOORS +Bathroom_20: -7961096539195308830
+      TILESET INDOORS +Bathroom_21: -1735212678482969511
+      TILESET INDOORS +Bathroom_22: 3329740905215490747
+      TILESET INDOORS +Bathroom_23: 4809946186947489891
+      TILESET INDOORS +Bathroom_24: -7678955084033315257
+      TILESET INDOORS +Bathroom_25: 4483640272507968394
+      TILESET INDOORS +Bathroom_26: 4237465769544022444
+      TILESET INDOORS +Bathroom_27: -483640523332858127
+      TILESET INDOORS +Bathroom_28: 7297551393972041343
+      TILESET INDOORS +Bathroom_29: 5885010051036655716
+      TILESET INDOORS +Bathroom_3: -3789218166861273797
+      TILESET INDOORS +Bathroom_30: -8705962179433756760
+      TILESET INDOORS +Bathroom_31: 5813172390910948882
+      TILESET INDOORS +Bathroom_32: -7474371469089684929
+      TILESET INDOORS +Bathroom_33: 4933562187506679590
+      TILESET INDOORS +Bathroom_34: 618779292629159832
+      TILESET INDOORS +Bathroom_35: -8524107220039968160
+      TILESET INDOORS +Bathroom_36: -2162323576868373668
+      TILESET INDOORS +Bathroom_37: -6390327939666528609
+      TILESET INDOORS +Bathroom_38: 1308140964983486954
+      TILESET INDOORS +Bathroom_39: 3675405448281791688
+      TILESET INDOORS +Bathroom_4: 1393061292048185887
+      TILESET INDOORS +Bathroom_40: 3277230082582840697
+      TILESET INDOORS +Bathroom_41: -4790748650575191481
+      TILESET INDOORS +Bathroom_42: 3929941962203647478
+      TILESET INDOORS +Bathroom_43: -4791452820706536160
+      TILESET INDOORS +Bathroom_5: -4741224624021004086
+      TILESET INDOORS +Bathroom_6: -3519808303216944078
+      TILESET INDOORS +Bathroom_7: -2260109411447084613
+      TILESET INDOORS +Bathroom_8: 1872294011640466788
+      TILESET INDOORS +Bathroom_9: 6082200899504449465
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

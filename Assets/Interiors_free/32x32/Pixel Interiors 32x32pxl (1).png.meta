@@ -1,0 +1,2938 @@
+fileFormatVersion: 2
+guid: 957ae8921eb4a804894960a10bf79329
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 38822806397921880
+    second: Pixel Interiors 32x32pxl (1)_0
+  - first:
+      213: 3826147140965999983
+    second: Pixel Interiors 32x32pxl (1)_1
+  - first:
+      213: 6652228807585608385
+    second: Pixel Interiors 32x32pxl (1)_2
+  - first:
+      213: 2274702024290352596
+    second: Pixel Interiors 32x32pxl (1)_3
+  - first:
+      213: 6517359211672895232
+    second: Pixel Interiors 32x32pxl (1)_4
+  - first:
+      213: 7499813280793865781
+    second: Pixel Interiors 32x32pxl (1)_5
+  - first:
+      213: -7281202852438836047
+    second: Pixel Interiors 32x32pxl (1)_6
+  - first:
+      213: 4809154738492525533
+    second: Pixel Interiors 32x32pxl (1)_7
+  - first:
+      213: -5516848755079568223
+    second: Pixel Interiors 32x32pxl (1)_8
+  - first:
+      213: -7314187853353173118
+    second: Pixel Interiors 32x32pxl (1)_9
+  - first:
+      213: -3361040560560555683
+    second: Pixel Interiors 32x32pxl (1)_10
+  - first:
+      213: 2988002757983473566
+    second: Pixel Interiors 32x32pxl (1)_11
+  - first:
+      213: 995145968228601252
+    second: Pixel Interiors 32x32pxl (1)_12
+  - first:
+      213: 391409864397670431
+    second: Pixel Interiors 32x32pxl (1)_13
+  - first:
+      213: -5458866302689990166
+    second: Pixel Interiors 32x32pxl (1)_14
+  - first:
+      213: -3182557334983092834
+    second: Pixel Interiors 32x32pxl (1)_15
+  - first:
+      213: -8600377012001595754
+    second: Pixel Interiors 32x32pxl (1)_16
+  - first:
+      213: 3668110988261764205
+    second: Pixel Interiors 32x32pxl (1)_17
+  - first:
+      213: -1910753239837361054
+    second: Pixel Interiors 32x32pxl (1)_18
+  - first:
+      213: 3285845413343101932
+    second: Pixel Interiors 32x32pxl (1)_19
+  - first:
+      213: 6498731114950324723
+    second: Pixel Interiors 32x32pxl (1)_20
+  - first:
+      213: -6874969965554610645
+    second: Pixel Interiors 32x32pxl (1)_21
+  - first:
+      213: 4887123347197142048
+    second: Pixel Interiors 32x32pxl (1)_22
+  - first:
+      213: -6405875012465031349
+    second: Pixel Interiors 32x32pxl (1)_23
+  - first:
+      213: -8848173811620969678
+    second: Pixel Interiors 32x32pxl (1)_24
+  - first:
+      213: 4356267946993606227
+    second: Pixel Interiors 32x32pxl (1)_25
+  - first:
+      213: -3087658364069763394
+    second: Pixel Interiors 32x32pxl (1)_26
+  - first:
+      213: 3159961350729341027
+    second: Pixel Interiors 32x32pxl (1)_27
+  - first:
+      213: 6235042768275982766
+    second: Pixel Interiors 32x32pxl (1)_28
+  - first:
+      213: 2957706314135242455
+    second: Pixel Interiors 32x32pxl (1)_29
+  - first:
+      213: 3225626177684780716
+    second: Pixel Interiors 32x32pxl (1)_30
+  - first:
+      213: -3753962546284299210
+    second: Pixel Interiors 32x32pxl (1)_31
+  - first:
+      213: 4385197278900934858
+    second: Pixel Interiors 32x32pxl (1)_32
+  - first:
+      213: 9171188326821262145
+    second: Pixel Interiors 32x32pxl (1)_33
+  - first:
+      213: 3304194339348540710
+    second: Pixel Interiors 32x32pxl (1)_34
+  - first:
+      213: -1324819410151279352
+    second: Pixel Interiors 32x32pxl (1)_35
+  - first:
+      213: 8237998128796795718
+    second: Pixel Interiors 32x32pxl (1)_36
+  - first:
+      213: -630195312083758662
+    second: Pixel Interiors 32x32pxl (1)_37
+  - first:
+      213: 4050675857430923620
+    second: Pixel Interiors 32x32pxl (1)_38
+  - first:
+      213: -3497614792490150217
+    second: Pixel Interiors 32x32pxl (1)_39
+  - first:
+      213: 5927078081098606520
+    second: Pixel Interiors 32x32pxl (1)_40
+  - first:
+      213: 3784973144290626803
+    second: Pixel Interiors 32x32pxl (1)_41
+  - first:
+      213: -2909919727330267723
+    second: Pixel Interiors 32x32pxl (1)_42
+  - first:
+      213: -1857828150583834213
+    second: Pixel Interiors 32x32pxl (1)_43
+  - first:
+      213: 1000598764411715359
+    second: Pixel Interiors 32x32pxl (1)_44
+  - first:
+      213: -6723119485718175780
+    second: Pixel Interiors 32x32pxl (1)_45
+  - first:
+      213: -3979061310361192107
+    second: Pixel Interiors 32x32pxl (1)_46
+  - first:
+      213: -5864142124894263538
+    second: Pixel Interiors 32x32pxl (1)_47
+  - first:
+      213: -1781898053917172142
+    second: Pixel Interiors 32x32pxl (1)_48
+  - first:
+      213: 3739265077634443921
+    second: Pixel Interiors 32x32pxl (1)_49
+  - first:
+      213: -7454461520211836457
+    second: Pixel Interiors 32x32pxl (1)_50
+  - first:
+      213: -8466880816771757173
+    second: Pixel Interiors 32x32pxl (1)_51
+  - first:
+      213: -2079453148383672518
+    second: Pixel Interiors 32x32pxl (1)_52
+  - first:
+      213: 6356732494527833921
+    second: Pixel Interiors 32x32pxl (1)_53
+  - first:
+      213: -6373165818027087283
+    second: Pixel Interiors 32x32pxl (1)_54
+  - first:
+      213: 3663976335185611817
+    second: Pixel Interiors 32x32pxl (1)_55
+  - first:
+      213: 6347477152110997708
+    second: Pixel Interiors 32x32pxl (1)_56
+  - first:
+      213: 652468440561352899
+    second: Pixel Interiors 32x32pxl (1)_57
+  - first:
+      213: 1825894412610560952
+    second: Pixel Interiors 32x32pxl (1)_58
+  - first:
+      213: 5709880853136931089
+    second: Pixel Interiors 32x32pxl (1)_59
+  - first:
+      213: 6049744072267152521
+    second: Pixel Interiors 32x32pxl (1)_60
+  - first:
+      213: 3125189579369661291
+    second: Pixel Interiors 32x32pxl (1)_61
+  - first:
+      213: 7625766362567641518
+    second: Pixel Interiors 32x32pxl (1)_62
+  - first:
+      213: 3032881113005097046
+    second: Pixel Interiors 32x32pxl (1)_63
+  - first:
+      213: -6541209635430472354
+    second: Pixel Interiors 32x32pxl (1)_64
+  - first:
+      213: 1069787464362969508
+    second: Pixel Interiors 32x32pxl (1)_65
+  - first:
+      213: -3225530963804778199
+    second: Pixel Interiors 32x32pxl (1)_66
+  - first:
+      213: -4385663430687468804
+    second: Pixel Interiors 32x32pxl (1)_67
+  - first:
+      213: -7831090542166397729
+    second: Pixel Interiors 32x32pxl (1)_68
+  - first:
+      213: 2760298220130019470
+    second: Pixel Interiors 32x32pxl (1)_69
+  - first:
+      213: -2059245664822424030
+    second: Pixel Interiors 32x32pxl (1)_70
+  - first:
+      213: -2377923443704556592
+    second: Pixel Interiors 32x32pxl (1)_71
+  - first:
+      213: -6297909678772288153
+    second: Pixel Interiors 32x32pxl (1)_72
+  - first:
+      213: 8778441506044973183
+    second: Pixel Interiors 32x32pxl (1)_73
+  - first:
+      213: -4968750084009486616
+    second: Pixel Interiors 32x32pxl (1)_74
+  - first:
+      213: 3318899291957091730
+    second: Pixel Interiors 32x32pxl (1)_75
+  - first:
+      213: 3783333608864749382
+    second: Pixel Interiors 32x32pxl (1)_76
+  - first:
+      213: 3064873929221234658
+    second: Pixel Interiors 32x32pxl (1)_77
+  - first:
+      213: 122780279830341328
+    second: Pixel Interiors 32x32pxl (1)_78
+  - first:
+      213: -3781297649398617033
+    second: Pixel Interiors 32x32pxl (1)_79
+  - first:
+      213: -1265150111082998213
+    second: Pixel Interiors 32x32pxl (1)_80
+  - first:
+      213: 9024283953297667171
+    second: Pixel Interiors 32x32pxl (1)_81
+  - first:
+      213: 5866537982055214637
+    second: Pixel Interiors 32x32pxl (1)_82
+  - first:
+      213: -3953875694948125358
+    second: Pixel Interiors 32x32pxl (1)_83
+  - first:
+      213: -2877917360249986144
+    second: Pixel Interiors 32x32pxl (1)_84
+  - first:
+      213: 4630983020196968140
+    second: Pixel Interiors 32x32pxl (1)_85
+  - first:
+      213: -3121668514600040142
+    second: Pixel Interiors 32x32pxl (1)_86
+  - first:
+      213: -2109193447814741736
+    second: Pixel Interiors 32x32pxl (1)_87
+  - first:
+      213: -7402844436053672540
+    second: Pixel Interiors 32x32pxl (1)_88
+  - first:
+      213: 4435300747560930419
+    second: Pixel Interiors 32x32pxl (1)_89
+  - first:
+      213: -4784841963200769583
+    second: Pixel Interiors 32x32pxl (1)_90
+  - first:
+      213: -2731855441087279908
+    second: Pixel Interiors 32x32pxl (1)_91
+  - first:
+      213: 7818342533911063386
+    second: Pixel Interiors 32x32pxl (1)_92
+  - first:
+      213: -7015425792303662734
+    second: Pixel Interiors 32x32pxl (1)_93
+  - first:
+      213: -1754636687266570217
+    second: Pixel Interiors 32x32pxl (1)_94
+  - first:
+      213: -7119927071662367385
+    second: Pixel Interiors 32x32pxl (1)_95
+  - first:
+      213: 5117723642149959
+    second: Pixel Interiors 32x32pxl (1)_96
+  - first:
+      213: 387159081871178650
+    second: Pixel Interiors 32x32pxl (1)_97
+  - first:
+      213: 1302312428705982235
+    second: Pixel Interiors 32x32pxl (1)_98
+  - first:
+      213: 8642726121299123561
+    second: Pixel Interiors 32x32pxl (1)_99
+  - first:
+      213: 4544692612277017228
+    second: Pixel Interiors 32x32pxl (1)_100
+  - first:
+      213: -5403665421521301944
+    second: Pixel Interiors 32x32pxl (1)_101
+  - first:
+      213: 1706431938042072181
+    second: Pixel Interiors 32x32pxl (1)_102
+  - first:
+      213: -8569395564165039567
+    second: Pixel Interiors 32x32pxl (1)_103
+  - first:
+      213: -1425874152921179948
+    second: Pixel Interiors 32x32pxl (1)_104
+  - first:
+      213: 134826768767280070
+    second: Pixel Interiors 32x32pxl (1)_105
+  - first:
+      213: 4532379348014271534
+    second: Pixel Interiors 32x32pxl (1)_106
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 161
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a2880032de98000800000000000000
+      internalID: 38822806397921880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 295
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f65a7ab8d84391530800000000000000
+      internalID: 3826147140965999983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_2
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 326
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c2b2c00bd6715c50800000000000000
+      internalID: 6652228807585608385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_3
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 296
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd30bf607d519f10800000000000000
+      internalID: 2274702024290352596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_4
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 296
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ff16d2caf427a50800000000000000
+      internalID: 6517359211672895232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_5
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 297
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ea9737170b41860800000000000000
+      internalID: 7499813280793865781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_6
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 297
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc72da4598f3fa90800000000000000
+      internalID: -7281202852438836047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_7
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 321
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddbcbb131cc8db240800000000000000
+      internalID: 4809154738492525533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_8
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 321
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a42de969473073b0800000000000000
+      internalID: -5516848755079568223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_9
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 321
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f386c46e8ce7a90800000000000000
+      internalID: -7314187853353173118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_10
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 321
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d59bb10fa6f2b51d0800000000000000
+      internalID: -3361040560560555683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_11
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 294
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f0e716da4877920800000000000000
+      internalID: 2988002757983473566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_12
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 289
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad8def4cf77fcd00800000000000000
+      internalID: 995145968228601252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_13
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 289
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18c109a2319e6500800000000000000
+      internalID: 391409864397670431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_14
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 289
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae920df15063e34b0800000000000000
+      internalID: -5458866302689990166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_15
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 289
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95d40b37f845d3d0800000000000000
+      internalID: -3182557334983092834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_16
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 262
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e9531aca255a880800000000000000
+      internalID: -8600377012001595754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_17
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 262
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6cac04628fb7e230800000000000000
+      internalID: 3668110988261764205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_18
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 259
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c311e4d04ab75e0800000000000000
+      internalID: -1910753239837361054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_19
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 259
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce389298efaa99d20800000000000000
+      internalID: 3285845413343101932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_20
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 237
+        width: 16
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1746d6481203a50800000000000000
+      internalID: 6498731114950324723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_21
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 237
+        width: 16
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e43a1dd333790a0800000000000000
+      internalID: -6874969965554610645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_22
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 257
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024243b8acc82d340800000000000000
+      internalID: 4887123347197142048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_23
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 257
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b47887ead92c917a0800000000000000
+      internalID: -6405875012465031349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_24
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 257
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2330b674cc8f43580800000000000000
+      internalID: -8848173811620969678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_25
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 257
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e59f60e92947c30800000000000000
+      internalID: 4356267946993606227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_26
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 198
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6abd5b31f6625d0800000000000000
+      internalID: -3087658364069763394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_27
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 198
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3689f263b107adb20800000000000000
+      internalID: 3159961350729341027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_28
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 227
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea94572fc52578650800000000000000
+      internalID: 6235042768275982766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_29
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 227
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d606fbd832eb0920800000000000000
+      internalID: 2957706314135242455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_30
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 230
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca63a132be9b3cc20800000000000000
+      internalID: 3225626177684780716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_31
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 240
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c7a9814fe37ebc0800000000000000
+      internalID: -3753962546284299210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_32
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 239
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac856eef0b95bdc30800000000000000
+      internalID: 4385197278900934858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_33
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 239
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143f364313b964f70800000000000000
+      internalID: 9171188326821262145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_34
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 239
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62de9b9ce3bdadd20800000000000000
+      internalID: 3304194339348540710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_35
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 242
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805f36204cb4d9de0800000000000000
+      internalID: -1324819410151279352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_36
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 226
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643044fb6af335270800000000000000
+      internalID: 8237998128796795718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_37
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 226
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1912cd3b81147f0800000000000000
+      internalID: -630195312083758662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_38
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 226
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469cb6e1b34e63830800000000000000
+      internalID: 4050675857430923620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_39
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 226
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6197c90e9f57fc0800000000000000
+      internalID: -3497614792490150217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_40
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 226
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7e2eb9c16314250800000000000000
+      internalID: 5927078081098606520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_41
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 193
+        width: 50
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc06d5650de68430800000000000000
+      internalID: 3784973144290626803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_42
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 193
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bde397ec63ed97d0800000000000000
+      internalID: -2909919727330267723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_43
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 198
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99cab6e32ba736e0800000000000000
+      internalID: -1857828150583834213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_44
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 197
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f747b5647d2ed00800000000000000
+      internalID: 1000598764411715359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_45
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 194
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfd247c27ea2b2a0800000000000000
+      internalID: -6723119485718175780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_46
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 208
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559bb68f1d887c8c0800000000000000
+      internalID: -3979061310361192107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_47
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 191
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e07e5459ec16e9ea0800000000000000
+      internalID: -5864142124894263538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_48
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 191
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e9e4e292d6547e0800000000000000
+      internalID: -1781898053917172142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_49
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 208
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19aac61d6c984e330800000000000000
+      internalID: 3739265077634443921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_50
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 164
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d184f72ebe6c8890800000000000000
+      internalID: -7454461520211836457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_51
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 159
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b00c0b1c89f7a80800000000000000
+      internalID: -8466880816771757173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_52
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 159
+        width: 7
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a370683016c4423e0800000000000000
+      internalID: -2079453148383672518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_53
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 159
+        width: 7
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147a38c3686a73850800000000000000
+      internalID: 6356732494527833921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_54
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 135
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a65d97477fd87a0800000000000000
+      internalID: -6373165818027087283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_55
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 161
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c0d24701f09d230800000000000000
+      internalID: 3663976335185611817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_56
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 175
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0fb77e6d4c61850800000000000000
+      internalID: 6347477152110997708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_57
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 161
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c000daf6980e0900800000000000000
+      internalID: 652468440561352899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_58
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 161
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3e5055b41e65910800000000000000
+      internalID: 1825894412610560952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_59
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 175
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119f70932629d3f40800000000000000
+      internalID: 5709880853136931089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_60
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 161
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c32894e2205f350800000000000000
+      internalID: 6049744072267152521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_61
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 136
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63c41e4d57ee5b20800000000000000
+      internalID: 3125189579369661291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_62
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 136
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea987fc8a1a24d960800000000000000
+      internalID: 7625766362567641518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_63
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 97
+        width: 60
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65009aaad45f61a20800000000000000
+      internalID: 3032881113005097046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_64
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 129
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55edce4e74f835a0800000000000000
+      internalID: -6541209635430472354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_65
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 129
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a94586e706a8de00800000000000000
+      internalID: 1069787464362969508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_66
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 102
+        width: 18
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92194629dac9c33d0800000000000000
+      internalID: -3225530963804778199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_67
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 102
+        width: 18
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2d375985ef223c0800000000000000
+      internalID: -4385663430687468804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_68
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc204e84a0625390800000000000000
+      internalID: -7831090542166397729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_69
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e882ef44b9c8e4620800000000000000
+      internalID: 2760298220130019470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_70
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e0ffa6af61c63e0800000000000000
+      internalID: -2059245664822424030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_71
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d39aea0a3beffed0800000000000000
+      internalID: -2377923443704556592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_72
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 101
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7658841d3845998a0800000000000000
+      internalID: -6297909678772288153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_73
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 96
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f701b512a0a43d970800000000000000
+      internalID: 8778441506044973183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_74
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 96
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e61ce8cf147b0bb0800000000000000
+      internalID: -4968750084009486616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_75
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 96
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29dd56e52591f0e20800000000000000
+      internalID: 3318899291957091730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_76
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 96
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6471e2f4fd9118430800000000000000
+      internalID: 3783333608864749382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_77
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 65
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef5698a99e988a20800000000000000
+      internalID: 3064873929221234658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_78
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 65
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6e5b4930434b100800000000000000
+      internalID: 122780279830341328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_79
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 64
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c639172d1268bc0800000000000000
+      internalID: -3781297649398617033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_80
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 64
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b361a515da8417ee0800000000000000
+      internalID: -1265150111082998213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_81
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 364b09c5172bc3d70800000000000000
+      internalID: 9024283953297667171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_82
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 64
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2eecb166312a6150800000000000000
+      internalID: 5866537982055214637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_83
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 34
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255f09401030129c0800000000000000
+      internalID: -3953875694948125358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_84
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 34
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3ae51a8659f08d0800000000000000
+      internalID: -2877917360249986144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_85
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 34
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6b4b7558e844040800000000000000
+      internalID: 4630983020196968140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_86
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 34
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2394eb8760b9da4d0800000000000000
+      internalID: -3121668514600040142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_87
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 34
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811cb64fbb3aab2e0800000000000000
+      internalID: -2109193447814741736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_88
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 34
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad3b851530d34990800000000000000
+      internalID: -7402844436053672540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_89
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 34
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37cc46ad78a5d8d30800000000000000
+      internalID: 4435300747560930419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_90
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 34
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1190de593d89db0800000000000000
+      internalID: -4784841963200769583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_91
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 34
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc464843ff761ad0800000000000000
+      internalID: -2731855441087279908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_92
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 34
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ba81a7c15508c60800000000000000
+      internalID: 7818342533911063386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_93
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 34
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27970a5496334ae90800000000000000
+      internalID: -7015425792303662734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_94
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 34
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710ab99ba3746a7e0800000000000000
+      internalID: -1754636687266570217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_95
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 2
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d90e22d00f03d90800000000000000
+      internalID: -7119927071662367385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_96
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 2
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74cbfb3ea8e221000800000000000000
+      internalID: 5117723642149959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_97
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 2
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b7f7a32277f5500800000000000000
+      internalID: 387159081871178650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_98
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 2
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17a893014eb21210800000000000000
+      internalID: 1302312428705982235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_99
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 2
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d160fbd9121f770800000000000000
+      internalID: 8642726121299123561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_100
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 2
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a1d102addf11f30800000000000000
+      internalID: 4544692612277017228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_101
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 2
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e4921dde25205b0800000000000000
+      internalID: -5403665421521301944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_102
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 2
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c016c7ec67ea710800000000000000
+      internalID: 1706431938042072181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_103
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 2
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a72221324631980800000000000000
+      internalID: -8569395564165039567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_104
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 2
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8d8b43307463ce0800000000000000
+      internalID: -1425874152921179948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_105
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 2
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3669a5b300fd100800000000000000
+      internalID: 134826768767280070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Interiors 32x32pxl (1)_106
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 2
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c05b1e00f36ee30800000000000000
+      internalID: 4532379348014271534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pixel Interiors 32x32pxl (1)_0: 38822806397921880
+      Pixel Interiors 32x32pxl (1)_1: 3826147140965999983
+      Pixel Interiors 32x32pxl (1)_10: -3361040560560555683
+      Pixel Interiors 32x32pxl (1)_100: 4544692612277017228
+      Pixel Interiors 32x32pxl (1)_101: -5403665421521301944
+      Pixel Interiors 32x32pxl (1)_102: 1706431938042072181
+      Pixel Interiors 32x32pxl (1)_103: -8569395564165039567
+      Pixel Interiors 32x32pxl (1)_104: -1425874152921179948
+      Pixel Interiors 32x32pxl (1)_105: 134826768767280070
+      Pixel Interiors 32x32pxl (1)_106: 4532379348014271534
+      Pixel Interiors 32x32pxl (1)_11: 2988002757983473566
+      Pixel Interiors 32x32pxl (1)_12: 995145968228601252
+      Pixel Interiors 32x32pxl (1)_13: 391409864397670431
+      Pixel Interiors 32x32pxl (1)_14: -5458866302689990166
+      Pixel Interiors 32x32pxl (1)_15: -3182557334983092834
+      Pixel Interiors 32x32pxl (1)_16: -8600377012001595754
+      Pixel Interiors 32x32pxl (1)_17: 3668110988261764205
+      Pixel Interiors 32x32pxl (1)_18: -1910753239837361054
+      Pixel Interiors 32x32pxl (1)_19: 3285845413343101932
+      Pixel Interiors 32x32pxl (1)_2: 6652228807585608385
+      Pixel Interiors 32x32pxl (1)_20: 6498731114950324723
+      Pixel Interiors 32x32pxl (1)_21: -6874969965554610645
+      Pixel Interiors 32x32pxl (1)_22: 4887123347197142048
+      Pixel Interiors 32x32pxl (1)_23: -6405875012465031349
+      Pixel Interiors 32x32pxl (1)_24: -8848173811620969678
+      Pixel Interiors 32x32pxl (1)_25: 4356267946993606227
+      Pixel Interiors 32x32pxl (1)_26: -3087658364069763394
+      Pixel Interiors 32x32pxl (1)_27: 3159961350729341027
+      Pixel Interiors 32x32pxl (1)_28: 6235042768275982766
+      Pixel Interiors 32x32pxl (1)_29: 2957706314135242455
+      Pixel Interiors 32x32pxl (1)_3: 2274702024290352596
+      Pixel Interiors 32x32pxl (1)_30: 3225626177684780716
+      Pixel Interiors 32x32pxl (1)_31: -3753962546284299210
+      Pixel Interiors 32x32pxl (1)_32: 4385197278900934858
+      Pixel Interiors 32x32pxl (1)_33: 9171188326821262145
+      Pixel Interiors 32x32pxl (1)_34: 3304194339348540710
+      Pixel Interiors 32x32pxl (1)_35: -1324819410151279352
+      Pixel Interiors 32x32pxl (1)_36: 8237998128796795718
+      Pixel Interiors 32x32pxl (1)_37: -630195312083758662
+      Pixel Interiors 32x32pxl (1)_38: 4050675857430923620
+      Pixel Interiors 32x32pxl (1)_39: -3497614792490150217
+      Pixel Interiors 32x32pxl (1)_4: 6517359211672895232
+      Pixel Interiors 32x32pxl (1)_40: 5927078081098606520
+      Pixel Interiors 32x32pxl (1)_41: 3784973144290626803
+      Pixel Interiors 32x32pxl (1)_42: -2909919727330267723
+      Pixel Interiors 32x32pxl (1)_43: -1857828150583834213
+      Pixel Interiors 32x32pxl (1)_44: 1000598764411715359
+      Pixel Interiors 32x32pxl (1)_45: -6723119485718175780
+      Pixel Interiors 32x32pxl (1)_46: -3979061310361192107
+      Pixel Interiors 32x32pxl (1)_47: -5864142124894263538
+      Pixel Interiors 32x32pxl (1)_48: -1781898053917172142
+      Pixel Interiors 32x32pxl (1)_49: 3739265077634443921
+      Pixel Interiors 32x32pxl (1)_5: 7499813280793865781
+      Pixel Interiors 32x32pxl (1)_50: -7454461520211836457
+      Pixel Interiors 32x32pxl (1)_51: -8466880816771757173
+      Pixel Interiors 32x32pxl (1)_52: -2079453148383672518
+      Pixel Interiors 32x32pxl (1)_53: 6356732494527833921
+      Pixel Interiors 32x32pxl (1)_54: -6373165818027087283
+      Pixel Interiors 32x32pxl (1)_55: 3663976335185611817
+      Pixel Interiors 32x32pxl (1)_56: 6347477152110997708
+      Pixel Interiors 32x32pxl (1)_57: 652468440561352899
+      Pixel Interiors 32x32pxl (1)_58: 1825894412610560952
+      Pixel Interiors 32x32pxl (1)_59: 5709880853136931089
+      Pixel Interiors 32x32pxl (1)_6: -7281202852438836047
+      Pixel Interiors 32x32pxl (1)_60: 6049744072267152521
+      Pixel Interiors 32x32pxl (1)_61: 3125189579369661291
+      Pixel Interiors 32x32pxl (1)_62: 7625766362567641518
+      Pixel Interiors 32x32pxl (1)_63: 3032881113005097046
+      Pixel Interiors 32x32pxl (1)_64: -6541209635430472354
+      Pixel Interiors 32x32pxl (1)_65: 1069787464362969508
+      Pixel Interiors 32x32pxl (1)_66: -3225530963804778199
+      Pixel Interiors 32x32pxl (1)_67: -4385663430687468804
+      Pixel Interiors 32x32pxl (1)_68: -7831090542166397729
+      Pixel Interiors 32x32pxl (1)_69: 2760298220130019470
+      Pixel Interiors 32x32pxl (1)_7: 4809154738492525533
+      Pixel Interiors 32x32pxl (1)_70: -2059245664822424030
+      Pixel Interiors 32x32pxl (1)_71: -2377923443704556592
+      Pixel Interiors 32x32pxl (1)_72: -6297909678772288153
+      Pixel Interiors 32x32pxl (1)_73: 8778441506044973183
+      Pixel Interiors 32x32pxl (1)_74: -4968750084009486616
+      Pixel Interiors 32x32pxl (1)_75: 3318899291957091730
+      Pixel Interiors 32x32pxl (1)_76: 3783333608864749382
+      Pixel Interiors 32x32pxl (1)_77: 3064873929221234658
+      Pixel Interiors 32x32pxl (1)_78: 122780279830341328
+      Pixel Interiors 32x32pxl (1)_79: -3781297649398617033
+      Pixel Interiors 32x32pxl (1)_8: -5516848755079568223
+      Pixel Interiors 32x32pxl (1)_80: -1265150111082998213
+      Pixel Interiors 32x32pxl (1)_81: 9024283953297667171
+      Pixel Interiors 32x32pxl (1)_82: 5866537982055214637
+      Pixel Interiors 32x32pxl (1)_83: -3953875694948125358
+      Pixel Interiors 32x32pxl (1)_84: -2877917360249986144
+      Pixel Interiors 32x32pxl (1)_85: 4630983020196968140
+      Pixel Interiors 32x32pxl (1)_86: -3121668514600040142
+      Pixel Interiors 32x32pxl (1)_87: -2109193447814741736
+      Pixel Interiors 32x32pxl (1)_88: -7402844436053672540
+      Pixel Interiors 32x32pxl (1)_89: 4435300747560930419
+      Pixel Interiors 32x32pxl (1)_9: -7314187853353173118
+      Pixel Interiors 32x32pxl (1)_90: -4784841963200769583
+      Pixel Interiors 32x32pxl (1)_91: -2731855441087279908
+      Pixel Interiors 32x32pxl (1)_92: 7818342533911063386
+      Pixel Interiors 32x32pxl (1)_93: -7015425792303662734
+      Pixel Interiors 32x32pxl (1)_94: -1754636687266570217
+      Pixel Interiors 32x32pxl (1)_95: -7119927071662367385
+      Pixel Interiors 32x32pxl (1)_96: 5117723642149959
+      Pixel Interiors 32x32pxl (1)_97: 387159081871178650
+      Pixel Interiors 32x32pxl (1)_98: 1302312428705982235
+      Pixel Interiors 32x32pxl (1)_99: 8642726121299123561
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
