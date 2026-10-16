@@ -8,6 +8,10 @@ public class GestorRegalo : MonoBehaviour
     public GameObject botonEquipar;
     public GameObject botonSiguienteNivel;
 
+    [Header("Accesorios puestos en los personajes (desactivados al inicio)")]
+    public GameObject accesorioOdy;
+    public GameObject accesorioRamon;
+
     public void AbrirRegalo()
     {
         if (objetoRegaloCerrado != null) objetoRegaloCerrado.SetActive(false);
@@ -18,6 +22,12 @@ public class GestorRegalo : MonoBehaviour
     public void EquiparAccesorios()
     {
         Debug.Log("¡Accesorios equipados en Ody y Ramón!");
+
+        if (accesorioOdy != null) accesorioOdy.SetActive(true);
+        if (accesorioRamon != null) accesorioRamon.SetActive(true);
+
+        if (panelAccesoriosAbierto != null) panelAccesoriosAbierto.SetActive(false);
+        if (botonEquipar != null) botonEquipar.SetActive(false);
         if (botonSiguienteNivel != null) botonSiguienteNivel.SetActive(true);
     }
 

@@ -7,6 +7,8 @@ public class GestorNivel : MonoBehaviour
     [Header("Progreso del Nivel")]
     public int totalTareas = 4; // 2 para Ody (Comida y Agua) y 2 para Ramón (Comida y Agua)
     private int tareasCompletadas = 0;
+    // Linea agregada
+    public bool nivelCompletado = false;
 
     [Header("Panel del Regalo")]
     public GameObject panelRegalo; // Arrastra aquí tu PanelRegalo de la Jerarquía
@@ -36,6 +38,8 @@ public class GestorNivel : MonoBehaviour
 
     void CompletarNivel()
     {
+        // Linea agregada
+        nivelCompletado = true;
         // Activamos el panel del regalo que creaste en el Canvas
         if (panelRegalo != null)
         {
