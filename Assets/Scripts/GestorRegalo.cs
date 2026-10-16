@@ -4,35 +4,41 @@ using UnityEngine.SceneManagement;
 public class GestorRegalo : MonoBehaviour
 {
     public GameObject objetoRegaloCerrado;
-    public GameObject panelAccesoriosAbierto; // Muestra la pañoleta y el moño
+    public GameObject panelAccesoriosAbierto; // Objeto "Objetos" que contiene ambas imágenes (Moño y Pañoleta)
     public GameObject botonEquipar;
     public GameObject botonSiguienteNivel;
 
-    [Header("Accesorios puestos en los personajes (desactivados al inicio)")]
-    public GameObject accesorioOdy;
-    public GameObject accesorioRamon;
-
     public void AbrirRegalo()
     {
-        if (objetoRegaloCerrado != null) objetoRegaloCerrado.SetActive(false);
-        if (panelAccesoriosAbierto != null) panelAccesoriosAbierto.SetActive(true);
-        if (botonEquipar != null) botonEquipar.SetActive(true);
+        if (objetoRegaloCerrado != null)
+            objetoRegaloCerrado.SetActive(false);
+
+        // Muestra el panel con AMBAS imágenes (Moño y Pañoleta juntas)
+        if (panelAccesoriosAbierto != null)
+            panelAccesoriosAbierto.SetActive(true);
+
+        if (botonEquipar != null)
+            botonEquipar.SetActive(true);
     }
 
     public void EquiparAccesorios()
     {
-        Debug.Log("¡Accesorios equipados en Ody y Ramón!");
+        Debug.Log("¡Accesorios confirmados para el Nivel 2!");
 
-        if (accesorioOdy != null) accesorioOdy.SetActive(true);
-        if (accesorioRamon != null) accesorioRamon.SetActive(true);
+        // Oculta la caja y las imágenes del premio
+        if (panelAccesoriosAbierto != null)
+            panelAccesoriosAbierto.SetActive(false);
 
-        if (panelAccesoriosAbierto != null) panelAccesoriosAbierto.SetActive(false);
-        if (botonEquipar != null) botonEquipar.SetActive(false);
-        if (botonSiguienteNivel != null) botonSiguienteNivel.SetActive(true);
+        if (botonEquipar != null)
+            botonEquipar.SetActive(false);
+
+        // Muestra el botón para avanzar de nivel
+        if (botonSiguienteNivel != null)
+            botonSiguienteNivel.SetActive(true);
     }
 
     public void IrAlSiguienteNivel()
     {
-        SceneManager.LoadScene("Escena2"); // Nombre de tu escena del baño
+        SceneManager.LoadScene("Escena2"); // Avanza a la escena del baño
     }
 }
