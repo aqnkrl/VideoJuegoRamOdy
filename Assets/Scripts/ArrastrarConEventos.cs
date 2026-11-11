@@ -19,8 +19,7 @@ public class ArrastrarConEventos : MonoBehaviour, IBeginDragHandler, IDragHandle
     public Slider barraAsociada;       // La barra de slider que se llenará
 
     [Header("Efecto de Sonido (SFX)")]
-    public AudioSource fuenteAudio;    // El componente de AudioSource que reproducirá el sonido
-    public AudioClip sonidoExito;      // El audio corto de comer o beber agua
+    public AudioSource fuenteAudio;    // El AudioSource que está en este mismo objeto
 
     void Awake()
     {
@@ -37,6 +36,11 @@ public class ArrastrarConEventos : MonoBehaviour, IBeginDragHandler, IDragHandle
         if (platoDestino != null)
         {
             spriteRendererPlato = platoDestino.GetComponent<SpriteRenderer>();
+        }
+
+        if (fuenteAudio == null)
+        {
+            fuenteAudio = GetComponent<AudioSource>();
         }
     }
 
@@ -80,10 +84,10 @@ public class ArrastrarConEventos : MonoBehaviour, IBeginDragHandler, IDragHandle
                     barraAsociada.value = 1f;
                 }
 
-                // 3. REPRODUCIR EL SONIDO DE COMER O BEBER
-                if (fuenteAudio != null && sonidoExito != null)
+                // 3. REPRODUCIR EL SONIDO EXACTAMENTE UNA VEZ
+                if (fuenteAudio != null && fuenteAudio.clip != null)
                 {
-                    fuenteAudio.PlayOneShot(sonidoExito);
+                    fuenteAudio.PlayOneShot(fuenteAudio.clip);
                 }
 
                 // 4. Avanzar nivel si el gestor existe
@@ -92,12 +96,18 @@ public class ArrastrarConEventos : MonoBehaviour, IBeginDragHandler, IDragHandle
                     GestorNivel.Instancia.AvanzarProgreso();
                 }
 
-                // 5. Desactivar el objeto al atinarle
-                gameObject.SetActive(false);
+                // 5. Desactivar el objeto esperando 3.5 segundos para que el audio de la comida suene completo
+                StartCoroutine(DesactivarConRetraso(1.5f));
                 return;
             }
         }
 
         transform.position = posicionInicial;
+    }
+
+    private System.Collections.IEnumerator DesactivarConRetraso(float tiempo)
+    {
+        yield return new WaitForSeconds(tiempo);
+        gameObject.SetActive(false);
     }
 }

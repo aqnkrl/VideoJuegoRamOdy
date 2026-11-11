@@ -1,137 +1,133 @@
 using UnityEngine;
 
-public class ControlJugador : MonoBehaviour
+public class ControladorJugador : MonoBehaviour
 {
-    public float velocidad = 4f;
-    private Rigidbody2D rb;
-    private SpriteRenderer sr;
-    private Vector2 movimiento;
+    public enum EstadoMascota
+    {
+        Sucio,
+        Enjabonado,
+        Mojado,
+        Limpio
+    }
 
-    // Definimos los estados del baño
-    public enum EstadoMascota { Sucio, Enjabonado, Mojado, Limpio }
     [Header("Estado Actual de Ody")]
     public EstadoMascota estadoActual = EstadoMascota.Sucio;
 
-    [Header("1. Sprites Ody Sucio")]
-    public Sprite sucioFrente;
-    public Sprite sucioEspalda;
-    public Sprite sucioPerfil;
+    // Estructura para agrupar las direcciones por cada estado
+    [System.Serializable]
+    public struct SpritesDireccion
+    {
+        public Sprite frente;
+        public Sprite espalda;
+        public Sprite lado;
+    }
 
-    [Header("2. Sprites Ody Enjabonado (Espuma)")]
-    public Sprite espumaFrente;
-    public Sprite espumaEspalda;
-    public Sprite espumaPerfil;
+    [Header("Sprites por cada Modo / Estado")]
+    public SpritesDireccion odySucio;
+    public SpritesDireccion odyEnjabonado;
+    public SpritesDireccion odyMojado;
+    public SpritesDireccion odyLimpio;
 
-    [Header("3. Sprites Ody Mojado")]
-    public Sprite mojadoFrente;
-    public Sprite mojadoEspalda;
-    public Sprite mojadoPerfil;
+    private SpriteRenderer spriteRenderer;
+    private string direccionActual = "frente"; // Controla si mira al frente, espalda o lado
 
-    [Header("4. Sprites Ody Limpio")]
-    public Sprite limpioFrente;
-    public Sprite limpioEspalda;
-    public Sprite limpioPerfil;
-
-    // Sprites activos según la dirección
-    private Sprite spriteFrente;
-    private Sprite spriteEspalda;
-    private Sprite spritePerfil;
+    [Header("Configuración de Movimiento")]
+    public float velocidad = 3f;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        sr = GetComponent<SpriteRenderer>();
-        ActualizarConjuntoSprites();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        ActualizarSpriteVisual();
     }
 
     void Update()
     {
-        // Leemos las flechas del teclado
-        float moveX = 0f;
-        float moveY = 0f;
+        // Movimiento exclusivo con las FLECHAS del teclado (Ignora totalmente W, A, S, D)
+        float movimientoX = 0f;
+        float movimientoY = 0f;
 
-        if (Input.GetKey(KeyCode.UpArrow)) moveY = 1f;
-        if (Input.GetKey(KeyCode.DownArrow)) moveY = -1f;
-        if (Input.GetKey(KeyCode.LeftArrow)) moveX = -1f;
-        if (Input.GetKey(KeyCode.RightArrow)) moveX = 1f;
+        if (Input.GetKey(KeyCode.LeftArrow)) movimientoX = -1f;
+        if (Input.GetKey(KeyCode.RightArrow)) movimientoX = 1f;
+        if (Input.GetKey(KeyCode.DownArrow)) movimientoY = -1f;
+        if (Input.GetKey(KeyCode.UpArrow)) movimientoY = 1f;
 
-        movimiento = new Vector2(moveX, moveY).normalized;
+        Vector3 desplazamiento = new Vector3(movimientoX, movimientoY, 0) * velocidad * Time.deltaTime;
+        transform.position += desplazamiento;
 
-        CambiarSprite();
+        // Detectar hacia dónde se mueve Ody para cambiar la dirección visual
+        if (movimientoX != 0 || movimientoY != 0)
+        {
+            if (Mathf.Abs(movimientoX) > Mathf.Abs(movimientoY))
+            {
+                direccionActual = "lado";
+                spriteRenderer.flipX = (movimientoX < 0); // Voltea el sprite si va a la izquierda
+            }
+            else
+            {
+                if (movimientoY > 0)
+                {
+                    direccionActual = "espalda";
+                }
+                else if (movimientoY < 0)
+                {
+                    direccionActual = "frente";
+                }
+            }
+        }
+
+        // Actualiza el sprite en tiempo real según estado y movimiento
+        ActualizarSpriteVisual();
     }
 
-    void FixedUpdate()
-    {
-        rb.linearVelocity = movimiento * velocidad;
-    }
-
-    // Llama a esta función cuando Ody cambie de estado en el baño
     public void CambiarEstado(EstadoMascota nuevoEstado)
     {
         estadoActual = nuevoEstado;
-        ActualizarConjuntoSprites();
+        ActualizarSpriteVisual();
+        Debug.Log("¡Estado de Ody cambiado a: " + estadoActual + "!");
     }
 
-    void ActualizarConjuntoSprites()
+    void ActualizarSpriteVisual()
     {
+        if (spriteRenderer == null) return;
+
+        // Seleccionar el grupo de sprites según el estado actual de Ody
+        SpritesDireccion grupoActual = odySucio;
+
         switch (estadoActual)
         {
             case EstadoMascota.Sucio:
-                spriteFrente = sucioFrente;
-                spriteEspalda = sucioEspalda;
-                spritePerfil = sucioPerfil;
+                grupoActual = odySucio;
                 break;
             case EstadoMascota.Enjabonado:
-                spriteFrente = espumaFrente;
-                spriteEspalda = espumaEspalda;
-                spritePerfil = espumaPerfil;
+                grupoActual = odyEnjabonado;
                 break;
             case EstadoMascota.Mojado:
-                spriteFrente = mojadoFrente;
-                spriteEspalda = mojadoEspalda;
-                spritePerfil = mojadoPerfil;
+                grupoActual = odyMojado;
                 break;
             case EstadoMascota.Limpio:
-                spriteFrente = limpioFrente;
-                spriteEspalda = limpioEspalda;
-                spritePerfil = limpioPerfil;
+                grupoActual = odyLimpio;
                 break;
         }
 
-        // Forzamos actualizar el sprite actual si está quieto
-        if (sr != null && spriteFrente != null)
-        {
-            sr.sprite = spriteFrente;
-        }
-    }
+        // Seleccionar el sprite correcto según la dirección en la que se mueve/mira
+        Sprite spriteAUsar = grupoActual.frente;
 
-    void CambiarSprite()
-    {
-        if (sr == null) return;
+        if (direccionActual == "espalda")
+        {
+            spriteAUsar = grupoActual.espalda;
+        }
+        else if (direccionActual == "lado")
+        {
+            spriteAUsar = grupoActual.lado;
+        }
+        else
+        {
+            spriteAUsar = grupoActual.frente;
+        }
 
-        if (movimiento.y > 0)
+        if (spriteAUsar != null)
         {
-            if (spriteEspalda != null) sr.sprite = spriteEspalda;
-        }
-        else if (movimiento.y < 0)
-        {
-            if (spriteFrente != null) sr.sprite = spriteFrente;
-        }
-        else if (movimiento.x > 0)
-        {
-            if (spritePerfil != null)
-            {
-                sr.sprite = spritePerfil;
-                sr.flipX = false;
-            }
-        }
-        else if (movimiento.x < 0)
-        {
-            if (spritePerfil != null)
-            {
-                sr.sprite = spritePerfil;
-                sr.flipX = true;
-            }
+            spriteRenderer.sprite = spriteAUsar;
         }
     }
 }

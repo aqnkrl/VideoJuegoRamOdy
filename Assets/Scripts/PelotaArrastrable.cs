@@ -11,10 +11,21 @@ public class PelotaArrastrable : MonoBehaviour
     private bool arrastrando = false;
     private Vector2 desfase;
 
+    [Header("Efecto de Sonido (Chillido de Pelota)")]
+    public AudioSource fuenteAudio;
+    public AudioClip sonidoChillidoPelota;
+
     void Awake()
     {
         col = GetComponent<Collider2D>();
         cam = Camera.main;
+
+        if (fuenteAudio == null)
+        {
+            fuenteAudio = GetComponent<AudioSource>();
+            if (fuenteAudio == null) fuenteAudio = gameObject.AddComponent<AudioSource>();
+        }
+        fuenteAudio.playOnAwake = false;
     }
 
     void Update()
@@ -38,6 +49,13 @@ public class PelotaArrastrable : MonoBehaviour
         else if (arrastrando)
         {
             arrastrando = false;
+
+            // REPRODUCIR EL CHILLIDO DE LA PELOTA JUSTO CUANDO RAMÓN VA POR ELLA
+            if (fuenteAudio != null && sonidoChillidoPelota != null)
+            {
+                fuenteAudio.PlayOneShot(sonidoChillidoPelota);
+            }
+
             if (ramon != null) ramon.IrPorPelota(this);
         }
     }

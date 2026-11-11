@@ -2,8 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// Ponlo en Ramon. Recibe la orden de ObstaculoSaltable:
-// 1) camina hasta el punto de despegue, 2) brinca el obstaculo, 3) devuelve el control.
 public class RamonSalto : MonoBehaviour
 {
     [Header("Movimiento")]
@@ -42,7 +40,6 @@ public class RamonSalto : MonoBehaviour
     {
         saltando = true;
 
-        // Apagar scripts que mueven a Ramon
         var apagados = new List<MonoBehaviour>();
         foreach (string n in scriptsADesactivar)
         {
@@ -50,7 +47,6 @@ public class RamonSalto : MonoBehaviour
             if (mb != null && mb.enabled) { mb.enabled = false; apagados.Add(mb); }
         }
 
-        // Direccion de salto: eje dominante (derecha/izquierda/arriba/abajo)
         Vector2 centro = o.transform.position;
         Vector2 dir = centro - (Vector2)transform.position;
         dir = Mathf.Abs(dir.x) >= Mathf.Abs(dir.y)
@@ -61,7 +57,6 @@ public class RamonSalto : MonoBehaviour
         Vector2 despegue = centro - dir * o.distanciaDespegue;
         Vector2 aterrizaje = centro + dir * o.distanciaAterrizaje;
 
-        // 1) Caminar al punto de despegue (con su animacion normal)
         while (Vector2.Distance(transform.position, despegue) > 0.05f)
         {
             transform.position = Vector2.MoveTowards(transform.position, despegue, velocidad * Time.deltaTime);
@@ -69,7 +64,6 @@ public class RamonSalto : MonoBehaviour
         }
         transform.position = despegue;
 
-        // 2) Saltar
         if (animator != null) animator.enabled = false;
         var colisionadores = GetComponents<Collider2D>();
         foreach (var c in colisionadores) c.enabled = false;
@@ -99,12 +93,18 @@ public class RamonSalto : MonoBehaviour
             yield return null;
         }
 
-        // 3) Aterrizar y devolver el control
         transform.position = new Vector3(aterrizaje.x, aterrizaje.y, transform.position.z);
         if (visual != null) visual.localPosition = Vector3.zero;
         foreach (var c in colisionadores) c.enabled = true;
         if (animator != null) animator.enabled = true;
         foreach (var mb in apagados) mb.enabled = true;
+
+        // --- LLENAR SLIDER DE SALTO EN EL JARDÍN ---
+        ControladorJardin jardin = Object.FindFirstObjectByType<ControladorJardin>();
+        if (jardin != null)
+        {
+            jardin.SumarProgresoSalto();
+        }
 
         saltando = false;
     }

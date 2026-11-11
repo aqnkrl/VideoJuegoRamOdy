@@ -243,6 +243,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PelotaArrastrable
   ramon: {fileID: 523810600}
   bloqueada: 0
+  fuenteAudio: {fileID: 0}
+  sonidoChillidoPelota: {fileID: 0}
 --- !u!58 &26650123
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2527,6 +2529,8 @@ MonoBehaviour:
   llevarDerecha: []
   llevarIzquierda: []
   cuadrosPorSegundo: 10
+  fuenteAudio: {fileID: 0}
+  sonidoPelota: {fileID: 0}
 --- !u!1 &526627878
 GameObject:
   m_ObjectHideFlags: 0
@@ -6386,8 +6390,7 @@ MonoBehaviour:
   platoDestino: {fileID: 621931437}
   spritePlatoLleno: {fileID: 6059528746408793346, guid: 88ba1f0df39bbad4a89ba3b8363f28fd, type: 3}
   barraAsociada: {fileID: 1895755032}
-  fuenteAudio: {fileID: 1054623260}
-  sonidoExito: {fileID: 8300000, guid: ebe94e82825105847b61b16dc8225492, type: 3}
+  fuenteAudio: {fileID: 0}
 --- !u!1 &1056703289
 GameObject:
   m_ObjectHideFlags: 0
@@ -8822,8 +8825,7 @@ MonoBehaviour:
   platoDestino: {fileID: 1440320960}
   spritePlatoLleno: {fileID: 4685437419346967122, guid: 88ba1f0df39bbad4a89ba3b8363f28fd, type: 3}
   barraAsociada: {fileID: 1545677865}
-  fuenteAudio: {fileID: 1405026553}
-  sonidoExito: {fileID: 8300000, guid: 3c66e5fe22c564541bd79f582148c3d4, type: 3}
+  fuenteAudio: {fileID: 0}
 --- !u!1 &1436833506
 GameObject:
   m_ObjectHideFlags: 0
@@ -9933,9 +9935,9 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1888011545}
   - {fileID: 2077051657}
   - {fileID: 1633281977}
+  - {fileID: 1888011545}
   m_Father: {fileID: 1207636130}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -11491,8 +11493,7 @@ MonoBehaviour:
   platoDestino: {fileID: 873078158}
   spritePlatoLleno: {fileID: 6059528746408793346, guid: 88ba1f0df39bbad4a89ba3b8363f28fd, type: 3}
   barraAsociada: {fileID: 230958986}
-  fuenteAudio: {fileID: 1944513197}
-  sonidoExito: {fileID: 8300000, guid: ebe94e82825105847b61b16dc8225492, type: 3}
+  fuenteAudio: {fileID: 0}
 --- !u!1 &2001427607
 GameObject:
   m_ObjectHideFlags: 0
@@ -11918,8 +11919,7 @@ MonoBehaviour:
   platoDestino: {fileID: 2129910539}
   spritePlatoLleno: {fileID: 4685437419346967122, guid: 88ba1f0df39bbad4a89ba3b8363f28fd, type: 3}
   barraAsociada: {fileID: 930522588}
-  fuenteAudio: {fileID: 2078875472}
-  sonidoExito: {fileID: 8300000, guid: 3c66e5fe22c564541bd79f582148c3d4, type: 3}
+  fuenteAudio: {fileID: 0}
 --- !u!1 &2129910538
 GameObject:
   m_ObjectHideFlags: 0
