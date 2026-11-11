@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class ControladorBano : MonoBehaviour
 {
     [Header("Referencia al Jugador (Ody)")]
-    public ControlJugador jugador;
+    public ControladorJugador jugador;
 
     [Header("Efecto de Agua")]
     public GameObject aguaEfecto;
@@ -18,24 +18,32 @@ public class ControladorBano : MonoBehaviour
     private float progresoJabon = 0f;
     private float progresoRegadera = 0f;
     private float progresoSecador = 0f;
-    private float clicsNecesarios = 3f;
+    public float valorMaximo = 3f;
 
     void Start()
     {
         if (aguaEfecto != null) aguaEfecto.SetActive(false);
 
-        ConfigurarSlider(sliderJabon);
-        ConfigurarSlider(sliderRegadera);
-        ConfigurarSlider(sliderSecador);
+        // Recuperar datos si ya existían
+        if (DatosJuego.Instance != null)
+        {
+            progresoJabon = DatosJuego.Instance.progresoJabon;
+            progresoRegadera = DatosJuego.Instance.progresoRegadera;
+            progresoSecador = DatosJuego.Instance.progresoSecador;
+        }
+
+        ConfigurarSlider(sliderJabon, progresoJabon);
+        ConfigurarSlider(sliderRegadera, progresoRegadera);
+        ConfigurarSlider(sliderSecador, progresoSecador);
     }
 
-    void ConfigurarSlider(Slider slider)
+    void ConfigurarSlider(Slider slider, float valorInicial)
     {
         if (slider != null)
         {
             slider.minValue = 0;
-            slider.maxValue = clicsNecesarios;
-            slider.value = 0;
+            slider.maxValue = valorMaximo;
+            slider.value = valorInicial;
         }
     }
 
@@ -43,38 +51,52 @@ public class ControladorBano : MonoBehaviour
     {
         if (jugador == null) return;
 
-        // 1. JABÓN (Solo si está Sucio)
-        if (nombreHerramienta == "Jabon" && jugador.estadoActual == ControlJugador.EstadoMascota.Sucio)
+        // 1. JABÓN
+        if (nombreHerramienta == "Jabon" && sliderJabon.value < valorMaximo)
         {
-            progresoJabon++;
-            if (sliderJabon != null) sliderJabon.value = progresoJabon;
+            progresoJabon += Time.deltaTime * 3f;
+            progresoJabon = Mathf.Min(progresoJabon, valorMaximo);
+            sliderJabon.value = progresoJabon;
 
-            if (progresoJabon >= clicsNecesarios)
+            if (DatosJuego.Instance != null) DatosJuego.Instance.progresoJabon = progresoJabon;
+
+            if (progresoJabon >= valorMaximo)
             {
-                jugador.CambiarEstado(ControlJugador.EstadoMascota.Enjabonado);
+                jugador.CambiarEstado(ControladorJugador.EstadoMascota.Enjabonado);
             }
         }
-        // 2. REGADERA (Solo si está Enjabonado)
-        else if (nombreHerramienta == "Regadera" && jugador.estadoActual == ControlJugador.EstadoMascota.Enjabonado)
+        // 2. REGADERA (Funciona incluso si Ody se mueve un poco, con solo tocarlo)
+        else if (nombreHerramienta == "Regadera" && sliderJabon.value >= valorMaximo && sliderRegadera.value < valorMaximo)
         {
-            StartCoroutine(MostrarAguaTemporal());
-            progresoRegadera++;
-            if (sliderRegadera != null) sliderRegadera.value = progresoRegadera;
+            if (aguaEfecto != null && !aguaEfecto.activeSelf) StartCoroutine(MostrarAguaTemporal());
 
-            if (progresoRegadera >= clicsNecesarios)
+            progresoRegadera += Time.deltaTime * 3f;
+            progresoRegadera = Mathf.Min(progresoRegadera, valorMaximo);
+            sliderRegadera.value = progresoRegadera;
+
+            if (DatosJuego.Instance != null) DatosJuego.Instance.progresoRegadera = progresoRegadera;
+
+            if (progresoRegadera >= valorMaximo)
             {
-                jugador.CambiarEstado(ControlJugador.EstadoMascota.Mojado);
+                jugador.CambiarEstado(ControladorJugador.EstadoMascota.Mojado);
             }
         }
-        // 3. SECADOR (Solo si está Mojado)
-        else if (nombreHerramienta == "Secador" && jugador.estadoActual == ControlJugador.EstadoMascota.Mojado)
+        // 3. SECADOR
+        else if (nombreHerramienta == "Secador" && sliderRegadera.value >= valorMaximo && sliderSecador.value < valorMaximo)
         {
-            progresoSecador++;
-            if (sliderSecador != null) sliderSecador.value = progresoSecador;
+            progresoSecador += Time.deltaTime * 3f;
+            progresoSecador = Mathf.Min(progresoSecador, valorMaximo);
+            sliderSecador.value = progresoSecador;
 
-            if (progresoSecador >= clicsNecesarios)
+            if (DatosJuego.Instance != null)
             {
-                jugador.CambiarEstado(ControlJugador.EstadoMascota.Limpio);
+                DatosJuego.Instance.progresoSecador = progresoSecador;
+                DatosJuego.Instance.banoCompletado = true; // Corregido sin la "ñ"
+            }
+
+            if (progresoSecador >= valorMaximo)
+            {
+                jugador.CambiarEstado(ControladorJugador.EstadoMascota.Limpio);
             }
         }
     }

@@ -22,6 +22,10 @@ public class RamonTraePelota : MonoBehaviour
 
     public float cuadrosPorSegundo = 10f;
 
+    [Header("Efecto de Sonido (Pelota)")]
+    public AudioSource fuenteAudio;
+    public AudioClip sonidoPelota; // El chillido o sonido de la pelota al ir por ella
+
     private SpriteRenderer sprite;
     private Animator animador;
     private Rigidbody2D rb;
@@ -37,6 +41,13 @@ public class RamonTraePelota : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         sprite = GetComponentInChildren<SpriteRenderer>();
         animador = GetComponentInChildren<Animator>();
+
+        if (fuenteAudio == null)
+        {
+            fuenteAudio = GetComponent<AudioSource>();
+            if (fuenteAudio == null) fuenteAudio = gameObject.AddComponent<AudioSource>();
+        }
+        fuenteAudio.playOnAwake = false;
     }
 
     void Start()
@@ -75,6 +86,12 @@ public class RamonTraePelota : MonoBehaviour
         Sprite spriteOriginal = sprite != null ? sprite.sprite : null;
         if (animador != null) animador.enabled = false;
 
+        // REPRODUCIR EL SONIDO DE LA PELOTA CUANDO RAMÓN SALE CORRIENDO POR ELLA
+        if (fuenteAudio != null && sonidoPelota != null)
+        {
+            fuenteAudio.PlayOneShot(sonidoPelota);
+        }
+
         // 1. Ir hasta la pelota
         llevandoPelota = false;
         yield return IrA(pelota.transform.position, distanciaRecoger);
@@ -93,6 +110,13 @@ public class RamonTraePelota : MonoBehaviour
         pelota.transform.SetParent(padreOriginal, true);
         pelotaLlevada = null;
         llevandoPelota = false;
+
+        // --- SUMAR 1 AL SLIDER DE PELOTA ---
+        ControladorJardin jardin = Object.FindFirstObjectByType<ControladorJardin>();
+        if (jardin != null)
+        {
+            jardin.SumarProgresoPelota();
+        }
 
         if (sprite != null) sprite.sprite = spriteOriginal;
         if (animador != null) animador.enabled = true;
