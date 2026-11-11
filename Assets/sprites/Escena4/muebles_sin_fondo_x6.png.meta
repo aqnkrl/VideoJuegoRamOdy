@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 761f9f32e944b694189ee1c41130a22f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2841852522026886168
+    second: muebles_sin_fondo_x6_0
+  - first:
+      213: -5874999971658212810
+    second: muebles_sin_fondo_x6_1
+  - first:
+      213: -936016358152987289
+    second: muebles_sin_fondo_x6_2
+  - first:
+      213: -9176048183020076535
+    second: muebles_sin_fondo_x6_3
+  - first:
+      213: 4963006133190571315
+    second: muebles_sin_fondo_x6_4
+  - first:
+      213: 5852186330356588973
+    second: muebles_sin_fondo_x6_5
+  - first:
+      213: 7976622887082282222
+    second: muebles_sin_fondo_x6_6
+  - first:
+      213: 2694167258466173374
+    second: muebles_sin_fondo_x6_7
+  - first:
+      213: -8764865760753639746
+    second: muebles_sin_fondo_x6_8
+  - first:
+      213: -5225273642010797205
+    second: muebles_sin_fondo_x6_9
+  - first:
+      213: -7783402924335777721
+    second: muebles_sin_fondo_x6_10
+  - first:
+      213: 2738435583433738759
+    second: muebles_sin_fondo_x6_11
+  - first:
+      213: 1416254781268966404
+    second: muebles_sin_fondo_x6_12
+  - first:
+      213: -3854132236654631263
+    second: muebles_sin_fondo_x6_13
+  - first:
+      213: 2747135172528146084
+    second: muebles_sin_fondo_x6_14
+  - first:
+      213: 2396981208691042875
+    second: muebles_sin_fondo_x6_15
+  - first:
+      213: 8344105519188788158
+    second: muebles_sin_fondo_x6_16
+  - first:
+      213: 4447739039292383688
+    second: muebles_sin_fondo_x6_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: muebles_sin_fondo_x6_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 395
+        width: 182
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb1a802036bf88d0800000000000000
+      internalID: -2841852522026886168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muebles_sin_fondo_x6_1
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 401
+        width: 170
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ad1e127aec77ea0800000000000000
+      internalID: -5874999971658212810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muebles_sin_fondo_x6_2
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 389
+        width: 146
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d165cd41a9203f0800000000000000
+      internalID: -936016358152987289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muebles_sin_fondo_x6_3
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 395
+        width: 182
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90248395bc028a080800000000000000
+      internalID: -9176048183020076535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muebles_sin_fondo_x6_4
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 395
+        width: 182
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335b8e278c320e440800000000000000
+      internalID: 4963006133190571315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muebles_sin_fondo_x6_5
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 419
+        width: 182
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da12d441674273150800000000000000
+      internalID: 5852186330356588973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muebles_sin_fondo_x6_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 197
+        width: 182
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec4acbf048a2be60800000000000000
+      internalID: 7976622887082282222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muebles_sin_fondo_x6_7
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 227
+        width: 158
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb14d56e8da936520800000000000000
+      internalID: 2694167258466173374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muebles_sin_fondo_x6_8
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 221
+        width: 194
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe9b426701fc5680800000000000000
+      internalID: -8764865760753639746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muebles_sin_fondo_x6_9
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 197
+        width: 146
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b1cb9ae491c77b0800000000000000
+      internalID: -5225273642010797205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muebles_sin_fondo_x6_10
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 203
+        width: 182
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 748ba3f474ccbf390800000000000000
+      internalID: -7783402924335777721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muebles_sin_fondo_x6_11
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 257
+        width: 164
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a8bde77a0e00620800000000000000
+      internalID: 2738435583433738759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muebles_sin_fondo_x6_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 41
+        width: 170
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c3cfc483c87a310800000000000000
+      internalID: 1416254781268966404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muebles_sin_fondo_x6_13
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 41
+        width: 158
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6a1dc962f538ac0800000000000000
+      internalID: -3854132236654631263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muebles_sin_fondo_x6_14
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 11
+        width: 98
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6858c62e8cf1620800000000000000
+      internalID: 2747135172528146084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muebles_sin_fondo_x6_15
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 23
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ae055a5b9c34120800000000000000
+      internalID: 2396981208691042875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muebles_sin_fondo_x6_16
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 0
+        width: 146
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb3cf9fb2c73cc370800000000000000
+      internalID: 8344105519188788158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muebles_sin_fondo_x6_17
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 11
+        width: 170
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c1e8a2571b89bd30800000000000000
+      internalID: 4447739039292383688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      muebles_sin_fondo_x6_0: -2841852522026886168
+      muebles_sin_fondo_x6_1: -5874999971658212810
+      muebles_sin_fondo_x6_10: -7783402924335777721
+      muebles_sin_fondo_x6_11: 2738435583433738759
+      muebles_sin_fondo_x6_12: 1416254781268966404
+      muebles_sin_fondo_x6_13: -3854132236654631263
+      muebles_sin_fondo_x6_14: 2747135172528146084
+      muebles_sin_fondo_x6_15: 2396981208691042875
+      muebles_sin_fondo_x6_16: 8344105519188788158
+      muebles_sin_fondo_x6_17: 4447739039292383688
+      muebles_sin_fondo_x6_2: -936016358152987289
+      muebles_sin_fondo_x6_3: -9176048183020076535
+      muebles_sin_fondo_x6_4: 4963006133190571315
+      muebles_sin_fondo_x6_5: 5852186330356588973
+      muebles_sin_fondo_x6_6: 7976622887082282222
+      muebles_sin_fondo_x6_7: 2694167258466173374
+      muebles_sin_fondo_x6_8: -8764865760753639746
+      muebles_sin_fondo_x6_9: -5225273642010797205
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
