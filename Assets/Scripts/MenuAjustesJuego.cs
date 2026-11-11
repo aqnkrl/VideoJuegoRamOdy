@@ -8,22 +8,21 @@ public class MenuAjustesJuego : MonoBehaviour
     public Slider sliderMusica;         // Slider para la música de fondo
     public Slider sliderSonido;         // Slider para los efectos de sonido
 
-    [Header("Fuentes de Audio de la Escena")]
-    public AudioSource fuenteMusica;    // Arrastra aquí tu objeto de MusicaFondo
-    public AudioSource fuenteSonidos;   // Opcional: si tienes un AudioSource general para efectos
-
     void Start()
     {
-        // Configuramos los valores iniciales de los sliders (por defecto al máximo = 1)
-        if (sliderMusica != null && fuenteMusica != null)
+        // 1. Configurar el slider de música con el valor guardado
+        if (sliderMusica != null)
         {
-            sliderMusica.value = fuenteMusica.volume;
+            float volumenActual = PlayerPrefs.GetFloat("VolumenMusica", 1f);
+            sliderMusica.value = volumenActual;
             sliderMusica.onValueChanged.AddListener(AjustarVolumenMusica);
         }
 
-        if (sliderSonido != null && fuenteSonidos != null)
+        // 2. Configurar el slider de efectos de sonido
+        if (sliderSonido != null)
         {
-            sliderSonido.value = fuenteSonidos.volume;
+            float sonidoActual = PlayerPrefs.GetFloat("VolumenSonido", 1f);
+            sliderSonido.value = sonidoActual;
             sliderSonido.onValueChanged.AddListener(AjustarVolumenSonido);
         }
 
@@ -34,7 +33,6 @@ public class MenuAjustesJuego : MonoBehaviour
         }
     }
 
-    // Método para abrir o desplegar el menú desde el botón de la esquina
     public void AlternarMenu()
     {
         if (panelMenuAjustes != null)
@@ -52,21 +50,27 @@ public class MenuAjustesJuego : MonoBehaviour
         }
     }
 
-    // Controla únicamente la música de fondo
     public void AjustarVolumenMusica(float volumen)
     {
-        if (fuenteMusica != null)
+        // Buscar siempre el controlador global vigente en la escena actual o anterior
+        ControladorMusica controlador = Object.FindFirstObjectByType<ControladorMusica>();
+        if (controlador != null)
         {
-            fuenteMusica.volume = volumen;
+            controlador.CambiarVolumen(volumen);
+        }
+        else
+        {
+            PlayerPrefs.SetFloat("VolumenMusica", volumen);
+            PlayerPrefs.Save();
         }
     }
 
-    // Controla únicamente los efectos de sonido
     public void AjustarVolumenSonido(float volumen)
     {
-        if (fuenteSonidos != null)
-        {
-            fuenteSonidos.volume = volumen;
-        }
+        PlayerPrefs.SetFloat("VolumenSonido", volumen);
+        PlayerPrefs.Save();
+
+        // Controla el volumen general de todos los efectos del juego (jabón, agua, secadora, saltos)
+        AudioListener.volume = volumen;
     }
 }

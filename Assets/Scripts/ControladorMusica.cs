@@ -3,10 +3,10 @@ using UnityEngine;
 public class ControladorMusica : MonoBehaviour
 {
     private static ControladorMusica instancia;
+    public AudioSource audioSource;
 
     void Awake()
     {
-        // Si ya existe una música sonando, destruye el duplicado para que no se traslapen
         if (instancia != null)
         {
             Destroy(gameObject);
@@ -14,7 +14,33 @@ public class ControladorMusica : MonoBehaviour
         }
 
         instancia = this;
-        // Hace que este objeto de audio NO se destruya al cambiar de escena
         DontDestroyOnLoad(gameObject);
+
+        if (audioSource == null)
+        {
+            audioSource = GetComponent<AudioSource>();
+        }
+
+        // Cargar volumen guardado al iniciar
+        float volumenGuardado = PlayerPrefs.GetFloat("VolumenMusica", 1f);
+        if (audioSource != null)
+        {
+            audioSource.volume = volumenGuardado;
+            if (!audioSource.isPlaying)
+            {
+                audioSource.Play();
+            }
+        }
+    }
+
+    // Método para cambiar el volumen desde cualquier escena
+    public void CambiarVolumen(float nuevoVolumen)
+    {
+        if (audioSource != null)
+        {
+            audioSource.volume = nuevoVolumen;
+        }
+        PlayerPrefs.SetFloat("VolumenMusica", nuevoVolumen);
+        PlayerPrefs.Save();
     }
 }
