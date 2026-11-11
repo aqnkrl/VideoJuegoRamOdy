@@ -7,6 +7,7 @@ public class ControladorMusica : MonoBehaviour
 
     void Awake()
     {
+        // Si ya existe otra instancia previa, destruimos esta copia nueva para evitar música duplicada
         if (instancia != null)
         {
             Destroy(gameObject);
@@ -16,16 +17,19 @@ public class ControladorMusica : MonoBehaviour
         instancia = this;
         DontDestroyOnLoad(gameObject);
 
+        // Si no asignaste el AudioSource en el Inspector, lo busca automáticamente en el mismo objeto
         if (audioSource == null)
         {
             audioSource = GetComponent<AudioSource>();
         }
 
-        // Cargar volumen guardado al iniciar
+        // Cargar el volumen guardado en PlayerPrefs al iniciar
         float volumenGuardado = PlayerPrefs.GetFloat("VolumenMusica", 1f);
         if (audioSource != null)
         {
             audioSource.volume = volumenGuardado;
+
+            // Reproduce la música solo si no se está reproduciendo ya
             if (!audioSource.isPlaying)
             {
                 audioSource.Play();
@@ -33,7 +37,7 @@ public class ControladorMusica : MonoBehaviour
         }
     }
 
-    // Método para cambiar el volumen desde cualquier escena
+    // Método para cambiar el volumen desde cualquier escena o menú de ajustes
     public void CambiarVolumen(float nuevoVolumen)
     {
         if (audioSource != null)
