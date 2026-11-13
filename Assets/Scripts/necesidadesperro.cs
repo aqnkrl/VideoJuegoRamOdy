@@ -22,7 +22,7 @@ public class NecesidadesPerro : MonoBehaviour
     [Range(0f, 1f)] public float agua = 0f;
     [Range(0f, 1f)] public float sueno = 0f;
 
-    [Header("Cuánto baja por segundo")]
+    [Header("Cuánto baja por segundo (queda limitado por el mínimo alcanzado)")]
     public float bajaComida = 0.005f;
     public float bajaAgua = 0.008f;
     public float bajaSueno = 0.004f;
@@ -39,10 +39,30 @@ public class NecesidadesPerro : MonoBehaviour
     [Header("Aspecto")]
     public bool ocultarHandle = true;
     public bool colorRojoAVerde = true;
+    [Tooltip("Las barras usan el mismo estilo que BarraCepilladoOdy: se respeta el aspecto del Slider (círculo, color y sprites), sin ocultar el handle ni pintar de rojo a verde.")]
+    public bool estiloCepillado = true;
+
+    [Header("Persistencia")]
+    public bool persistir = true;
+    [Tooltip("Al iniciar el juego, las barras empiezan vacías aunque haya datos guardados. Al cambiar de escena sí se conservan.")]
+    public bool empezarVacioCadaSesion = true;
+
+    // Perros que ya aparecieron en esta partida (se limpia al dar Play / abrir el juego)
+    static readonly System.Collections.Generic.HashSet<string> sesionesIniciadas =
+        new System.Collections.Generic.HashSet<string>();
+
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+    static void ResetEstatico() { sesionesIniciadas.Clear(); }
 
     Camera cam;
     Canvas canvas;
     bool durmiendoAntes;
+
+    // Pisos: el valor más alto alcanzado. Nunca bajan.
+    float minComida, minAgua, minSueno;
+    bool hayCambios;
+    float tiempoGuardado;
+    const float INTERVALO_GUARDADO = 1f;   // segundos entre guardados
 
     void Start()
     {
@@ -69,13 +89,22 @@ public class NecesidadesPerro : MonoBehaviour
         if (barraSueno == null) Debug.LogWarning("[NecesidadesPerro] Falta el slider de sueño (BarraSueno" + nombreBase + ") en '" + nombreBase + "'.", this);
 
         if (empezarVacio) { comida = 0f; agua = 0f; sueno = 0f; }
+        // Primera vez que aparece este perro en esta partida: borra lo guardado
+        if (persistir && empezarVacioCadaSesion && sesionesIniciadas.Add(nombreBase))
+            ReiniciarProgreso();
+        Cargar();   // si hay datos guardados, pisan los valores iniciales
 
         Configurar(barraComida);
         Configurar(barraAgua);
         Configurar(barraSueno);
         ActualizarBarras();
 
-        Debug.Log("[NecesidadesPerro] Activo en '" + name + "' | grupo: " + (grupoBarras != null ? grupoBarras.name : "NINGUNO"), this);
+        Debug.Log("[NecesidadesPerro] " + nombreBase + " | empezarVacio=" + empezarVacio +
+                  " | sesionVacia=" + empezarVacioCadaSesion +
+                  " | comida=" + comida + " agua=" + agua + " sueno=" + sueno +
+                  " | pisos=" + minComida + "/" + minAgua + "/" + minSueno +
+                  " | guardado=" + PlayerPrefs.GetFloat(Clave("comida"), -1f) +
+                  " | grupo: " + (grupoBarras != null ? grupoBarras.name : "NINGUNO"), this);
     }
 
     void BuscarBarras()
@@ -107,17 +136,60 @@ public class NecesidadesPerro : MonoBehaviour
             if (durmiendo != durmiendoAntes)
             {
                 Debug.Log("[NecesidadesPerro] " + name + (durmiendo ? " se acostó" : " se levantó"));
+
+                // Sonido de dormir: suena mientras al menos un perro esté acostado
+                if (SonidoDormir.Instance != null)
+                {
+                    if (durmiendo) SonidoDormir.Instance.PerroSeAcosto();
+                    else SonidoDormir.Instance.PerroSeLevanto();
+                }
+
                 durmiendoAntes = durmiendo;
             }
         }
 
-        comida = Mathf.Clamp01(comida - bajaComida * Time.deltaTime);
-        agua = Mathf.Clamp01(agua - bajaAgua * Time.deltaTime);
+        // La baja nunca puede dejar el valor por debajo del piso alcanzado
+        comida = Mathf.Max(minComida, Mathf.Clamp01(comida - bajaComida * Time.deltaTime));
+        agua = Mathf.Max(minAgua, Mathf.Clamp01(agua - bajaAgua * Time.deltaTime));
 
         float cambio = durmiendo ? subeSueno : -bajaSueno;
-        sueno = Mathf.Clamp01(sueno + cambio * Time.deltaTime);
+        sueno = Mathf.Max(minSueno, Mathf.Clamp01(sueno + cambio * Time.deltaTime));
+
+        // Todo valor alcanzado se vuelve el nuevo mínimo
+        ActualizarPisos();
+
+        if (persistir && hayCambios && Time.time - tiempoGuardado >= INTERVALO_GUARDADO)
+            Guardar();
+
+        if (comida > 0.9f && Time.timeSinceLevelLoad < 3f)
+            Debug.LogWarning("[NecesidadesPerro] " + nombreBase + " comida=" + comida + " a los " + Time.timeSinceLevelLoad + "s", this);
 
         ActualizarBarras();
+    }
+
+    void OnDisable()
+    {
+        // Si el perro se desactiva mientras dormía, restamos del contador
+        if (durmiendoAntes)
+        {
+            if (SonidoDormir.Instance != null) SonidoDormir.Instance.PerroSeLevanto();
+            durmiendoAntes = false;
+        }
+
+        // Se ejecuta al cambiar de escena
+        ActualizarPisos();
+        Guardar();
+    }
+
+    void OnApplicationPause(bool pausa)
+    {
+        if (pausa) { ActualizarPisos(); Guardar(); }   // móvil
+    }
+
+    void OnApplicationQuit()
+    {
+        ActualizarPisos();
+        Guardar();
     }
 
     void LateUpdate()
@@ -142,9 +214,66 @@ public class NecesidadesPerro : MonoBehaviour
     }
 
     // ---- Llámalos desde tus otros scripts ----
-    public void Comer(float cantidad = 0.5f) { comida = Mathf.Clamp01(comida + cantidad); }
-    public void Beber(float cantidad = 0.5f) { agua = Mathf.Clamp01(agua + cantidad); }
+    public void Comer(float cantidad = 0.5f)
+    {
+        comida = Mathf.Clamp01(comida + cantidad);
+        ActualizarPisos();
+        Guardar();
+    }
+
+    public void Beber(float cantidad = 0.5f)
+    {
+        agua = Mathf.Clamp01(agua + cantidad);
+        ActualizarPisos();
+        Guardar();
+    }
+
     public void SetDurmiendo(bool valor) { durmiendo = valor; }   // solo se usa si no hay PerroDescanso
+
+    // Úsalo solo para reiniciar la partida completa (botón "Nueva partida")
+    public void ReiniciarProgreso()
+    {
+        minComida = minAgua = minSueno = 0f;
+        comida = agua = sueno = 0f;
+        PlayerPrefs.DeleteKey(Clave("comida"));
+        PlayerPrefs.DeleteKey(Clave("agua"));
+        PlayerPrefs.DeleteKey(Clave("sueno"));
+        hayCambios = false;
+        ActualizarBarras();
+    }
+
+    // ---- Persistencia ----
+    string Clave(string barra) { return "Necesidades_" + nombreBase + "_" + barra; }
+
+    void ActualizarPisos()
+    {
+        if (comida > minComida) { minComida = comida; hayCambios = true; }
+        if (agua > minAgua) { minAgua = agua; hayCambios = true; }
+        if (sueno > minSueno) { minSueno = sueno; hayCambios = true; }
+    }
+
+    void Guardar()
+    {
+        if (!persistir || string.IsNullOrEmpty(nombreBase)) return;
+        PlayerPrefs.SetFloat(Clave("comida"), minComida);
+        PlayerPrefs.SetFloat(Clave("agua"), minAgua);
+        PlayerPrefs.SetFloat(Clave("sueno"), minSueno);
+        PlayerPrefs.Save();
+        hayCambios = false;
+        tiempoGuardado = Time.time;
+    }
+
+    void Cargar()
+    {
+        if (!persistir) return;
+        minComida = PlayerPrefs.GetFloat(Clave("comida"), 0f);
+        minAgua = PlayerPrefs.GetFloat(Clave("agua"), 0f);
+        minSueno = PlayerPrefs.GetFloat(Clave("sueno"), 0f);
+
+        comida = Mathf.Max(comida, minComida);
+        agua = Mathf.Max(agua, minAgua);
+        sueno = Mathf.Max(sueno, minSueno);
+    }
 
     // ---- Internos ----
     void Configurar(Slider s)
@@ -154,7 +283,17 @@ public class NecesidadesPerro : MonoBehaviour
         s.maxValue = 1f;
         s.wholeNumbers = false;
         s.interactable = false;
-        if (ocultarHandle && s.handleRect != null) s.handleRect.gameObject.SetActive(false);
+
+        if (estiloCepillado)
+        {
+            // Sin transición para que "no interactuable" no tiñe de gris el handle ni el relleno
+            s.transition = Selectable.Transition.None;
+            if (s.handleRect != null) s.handleRect.gameObject.SetActive(true);
+        }
+        else if (ocultarHandle && s.handleRect != null)
+        {
+            s.handleRect.gameObject.SetActive(false);
+        }
     }
 
     void ActualizarBarras()
@@ -168,7 +307,7 @@ public class NecesidadesPerro : MonoBehaviour
     {
         if (s == null) return;
         s.value = valor;
-        if (colorRojoAVerde && s.fillRect != null)
+        if (colorRojoAVerde && !estiloCepillado && s.fillRect != null)
         {
             var img = s.fillRect.GetComponent<Image>();
             if (img != null) img.color = Color.Lerp(Color.red, Color.green, valor);

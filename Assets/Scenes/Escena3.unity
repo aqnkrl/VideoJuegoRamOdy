@@ -723,6 +723,15 @@ MonoBehaviour:
   sliderSecadorOdy: {fileID: 297717782}
   sliderPelotaRamon: {fileID: 1264829274}
   sliderSaltoRamon: {fileID: 664345153}
+  dialogoFinal: {fileID: 0}
+  nombrePersonaje: Karla
+  lineasFinales:
+  - "\xA1Felicidades! Completaste todos los niveles con mucho cari\xF1o y esfuerzo.
+    Ody y Ram\xF3n est\xE1n felices y bien cuidados."
+  - "Por portarse tan bien, Ody y Ram\xF3n se ganaron unos disfraces muy especiales.
+    \xA1Mira qu\xE9 bien se ven!"
+  - "Y t\xFA, como excelente cuidador, te ganaste una medalla. \xA1Gracias por cuidar
+    tan bien de ellos!"
   panelRegaloCerrado: {fileID: 1997388149}
   objetoRegaloCerrado: {fileID: 1997388149}
   panelAccesoriosAbierto: {fileID: 830773308}
@@ -8733,9 +8742,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1997388153}
-        m_TargetAssemblyTypeName: GestorRegalo, Assembly-CSharp
-        m_MethodName: IrAlSiguienteNivel
+      - m_Target: {fileID: 226822061}
+        m_TargetAssemblyTypeName: GestorNivel3, Assembly-CSharp
+        m_MethodName: IrASiguienteNivel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

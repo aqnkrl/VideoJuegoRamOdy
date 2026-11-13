@@ -12,6 +12,9 @@ public class ControlRamon : MonoBehaviour
     public Sprite spriteEspalda;
     public Sprite spritePerfil;
 
+    [Header("Barra de juego")]
+    public float llenadoPorSegundo = 0.05f;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -20,7 +23,6 @@ public class ControlRamon : MonoBehaviour
 
     void Update()
     {
-        // Leemos directamente las teclas W, A, S, D en Update
         float moveX = 0f;
         float moveY = 0f;
 
@@ -32,12 +34,20 @@ public class ControlRamon : MonoBehaviour
         movimiento = new Vector2(moveX, moveY).normalized;
 
         CambiarSprite();
+        LlenarBarraJuego();
     }
 
     void FixedUpdate()
     {
-        // Asignamos la velocidad directamente a la física del Rigidbody
         rb.linearVelocity = movimiento * velocidad;
+    }
+
+    void LlenarBarraJuego()
+    {
+        if (movimiento != Vector2.zero && BarraJuegoRamon.Instancia != null)
+        {
+            BarraJuegoRamon.Instancia.LlenarContinuo(llenadoPorSegundo);
+        }
     }
 
     void CambiarSprite()

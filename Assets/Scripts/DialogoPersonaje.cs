@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
@@ -18,7 +19,7 @@ public class DialogoPersonaje : MonoBehaviour
     [TextArea(2, 5)]
     public string[] lineas =
     {
-        "¡Hola! Ahora toca cuidar el descanso de Ody y de Ramón.",
+        "¡Hola! Ya estas en el Nivel 3. Ahora toca cuidar el descanso de Ody y de Ramón.",
         "Las barras sobre cada uno muestran su comida, su agua y su sueño.",
         "Llena sus platos para subir la comida y el agua.",
         "Cuando tengan sueño, acuéstalos en su cama: Ramón con E (se mueve con W, A, S, D) y Ody con O (se mueve con las flechas).",
@@ -41,6 +42,9 @@ public class DialogoPersonaje : MonoBehaviour
     public bool conFundido = true;          // se desvanece en vez de desaparecer de golpe
     public float duracionFundido = 0.8f;    // segundos que tarda en desvanecerse
     public UnityEvent alTerminar;
+
+    [Header("Desaparecen junto con el diálogo (arrastra aquí a la niña)")]
+    public GameObject[] objetosQueDesaparecen;
 
     int indice;
     bool activo;
@@ -134,23 +138,54 @@ public class DialogoPersonaje : MonoBehaviour
     void Terminar()
     {
         activo = false;
-        if (panelDialogo != null) panelDialogo.SetActive(false);
         BloquearMovimiento(false);
         alTerminar.Invoke();
 
+        // IMPORTANTE: no se desactiva nada ANTES de iniciar la corrutina,
+        // porque este script puede estar dentro del propio PanelDialogo.
+        if (desaparecerAlTerminar && conFundido && isActiveAndEnabled)
+        {
+            StartCoroutine(Desvanecer());
+        }
+        else
+        {
+            Ocultar();
+        }
+    }
+
+    // Oculta el panel y, si se pidió, también el objeto que tiene este script
+    void Ocultar()
+    {
+        if (panelDialogo != null) panelDialogo.SetActive(false);
         if (desaparecerAlTerminar)
         {
-            if (conFundido) StartCoroutine(Desvanecer());
-            else gameObject.SetActive(false);
+            if (objetosQueDesaparecen != null)
+                foreach (var o in objetosQueDesaparecen)
+                    if (o != null) o.SetActive(false);
+
+            gameObject.SetActive(false);
         }
     }
 
     IEnumerator Desvanecer()
     {
-        var sprites = GetComponentsInChildren<SpriteRenderer>();
-        if (sprites.Length == 0 || duracionFundido <= 0f)
+        // Prepara un CanvasGroup en el panel para poder desvanecer la UI
+        CanvasGroup grupo = null;
+        if (panelDialogo != null)
         {
-            gameObject.SetActive(false);
+            grupo = panelDialogo.GetComponent<CanvasGroup>();
+            if (grupo == null) grupo = panelDialogo.AddComponent<CanvasGroup>();
+        }
+
+        // Sprites a desvanecer: los de este objeto y los de los objetos que desaparecen (la niña)
+        var sprites = new List<SpriteRenderer>(GetComponentsInChildren<SpriteRenderer>());
+        if (objetosQueDesaparecen != null)
+            foreach (var o in objetosQueDesaparecen)
+                if (o != null) sprites.AddRange(o.GetComponentsInChildren<SpriteRenderer>());
+
+        if ((grupo == null && sprites.Count == 0) || duracionFundido <= 0f)
+        {
+            Ocultar();
             yield break;
         }
 
@@ -159,6 +194,9 @@ public class DialogoPersonaje : MonoBehaviour
         {
             t += Time.deltaTime;
             float alfa = 1f - Mathf.Clamp01(t / duracionFundido);
+
+            if (grupo != null) grupo.alpha = alfa;
+
             foreach (var sr in sprites)
             {
                 Color c = sr.color;
@@ -167,7 +205,11 @@ public class DialogoPersonaje : MonoBehaviour
             }
             yield return null;
         }
-        gameObject.SetActive(false);
+
+        // Deja el panel listo por si se vuelve a usar Iniciar()
+        if (grupo != null) grupo.alpha = 1f;
+
+        Ocultar();
     }
 
     // Apaga los scripts de movimiento de los perros (no toca sus barras ni su descanso)

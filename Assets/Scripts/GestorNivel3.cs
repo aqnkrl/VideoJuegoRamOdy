@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GestorNivel3 : MonoBehaviour
 {
@@ -12,14 +13,25 @@ public class GestorNivel3 : MonoBehaviour
     public Slider sliderPelotaRamon;
     public Slider sliderSaltoRamon;
 
+    [Header("Diálogo final")]
+    public DialogoNivel3 dialogoFinal;
+    public string nombrePersonaje = "Karla";
+    [TextArea(2, 5)]
+    public string[] lineasFinales =
+    {
+        "¡Felicidades! Completaste todos los niveles con mucho cariño y esfuerzo. Ody y Ramón están felices y bien cuidados.",
+        "Por portarse tan bien, Ody y Ramón se ganaron unos disfraces muy especiales. ¡Mira qué bien se ven!",
+        "Y tú, como excelente cuidador, te ganaste una medalla. ¡Gracias por cuidar tan bien de ellos!"
+    };
+
     [Header("Panel del Regalo (Caja Cerrada)")]
-    public GameObject panelRegaloCerrado; // El objeto raíz de tu UI de regalo (la caja cerrada)
+    public GameObject panelRegaloCerrado;
 
     [Header("Elementos opcionales a ordenar al abrir")]
     public GameObject objetoRegaloCerrado;
     public GameObject panelAccesoriosAbierto;
     public GameObject botonEquipar;
-    public GameObject botonSiguienteNivel;
+    public GameObject botonSiguienteNivel; // Declarada correctamente aquí
 
     public float valorMaximoOdy = 3f;
     public float valorMaximoRamon = 4f;
@@ -28,10 +40,8 @@ public class GestorNivel3 : MonoBehaviour
 
     void Start()
     {
-        // Al iniciar la escena 3, aseguramos que el panel del regalo empiece oculto
         if (panelRegaloCerrado != null) panelRegaloCerrado.SetActive(false);
 
-        // Asignar los valores de Ody guardados desde el nivel anterior
         if (DatosJuego.Instance != null)
         {
             if (sliderJabonOdy != null) { sliderJabonOdy.maxValue = valorMaximoOdy; sliderJabonOdy.value = DatosJuego.Instance.progresoJabon; }
@@ -44,13 +54,11 @@ public class GestorNivel3 : MonoBehaviour
     {
         if (nivelCompletado) return;
 
-        // Actualizar progreso de Ramón en tiempo real
         if (DatosJuego.Instance != null)
         {
             if (sliderPelotaRamon != null) DatosJuego.Instance.progresoPelota = sliderPelotaRamon.value;
             if (sliderSaltoRamon != null) DatosJuego.Instance.progresoSalto = sliderSaltoRamon.value;
 
-            // Verificar si ambos perritos completaron sus tareas
             bool odyListo = DatosJuego.Instance.progresoJabon >= valorMaximoOdy &&
                             DatosJuego.Instance.progresoRegadera >= valorMaximoOdy &&
                             DatosJuego.Instance.progresoSecador >= valorMaximoOdy;
@@ -61,8 +69,22 @@ public class GestorNivel3 : MonoBehaviour
             if (odyListo && ramonListo)
             {
                 nivelCompletado = true;
-                MostrarRegalo();
+                IniciarDialogoFinal();
             }
+        }
+    }
+
+    void IniciarDialogoFinal()
+    {
+        if (dialogoFinal != null)
+        {
+            dialogoFinal.alTerminar.RemoveListener(MostrarRegalo);
+            dialogoFinal.alTerminar.AddListener(MostrarRegalo);
+            dialogoFinal.IniciarConLineas(nombrePersonaje, lineasFinales, false);
+        }
+        else
+        {
+            MostrarRegalo();
         }
     }
 
@@ -70,15 +92,22 @@ public class GestorNivel3 : MonoBehaviour
     {
         if (panelRegaloCerrado != null)
         {
-            panelRegaloCerrado.SetActive(true); // ¡Aparece el panel del regalo en la pantalla!
+            panelRegaloCerrado.SetActive(true);
 
-            // Forzamos el orden visual inicial por si acaso
             if (objetoRegaloCerrado != null) objetoRegaloCerrado.SetActive(true);
             if (panelAccesoriosAbierto != null) panelAccesoriosAbierto.SetActive(false);
             if (botonEquipar != null) botonEquipar.SetActive(false);
-            if (botonSiguienteNivel != null) botonSiguienteNivel.SetActive(false);
 
-            Debug.Log("¡Todas las barras de Ody y Ramón están listas! Aparece el regalo final.");
+            // Simplemente activa el objeto del botón cuando aparece el regalo
+            if (botonSiguienteNivel != null) botonSiguienteNivel.SetActive(true);
+
+            Debug.Log("Diálogo terminado: aparece el regalo final.");
         }
+    }
+
+    // Método limpio que llamará tu botón directamente
+    public void IrASiguienteNivel()
+    {
+        SceneManager.LoadScene("Escena4");
     }
 }
