@@ -31,7 +31,7 @@ public class GestorNivel3 : MonoBehaviour
     public GameObject objetoRegaloCerrado;
     public GameObject panelAccesoriosAbierto;
     public GameObject botonEquipar;
-    public GameObject botonSiguienteNivel; // Declarada correctamente aquí
+    public GameObject botonSiguienteNivel;
 
     public float valorMaximoOdy = 3f;
     public float valorMaximoRamon = 4f;
@@ -94,18 +94,19 @@ public class GestorNivel3 : MonoBehaviour
         {
             panelRegaloCerrado.SetActive(true);
 
+            // Muestra la caja cerrada y oculta el botón de siguiente nivel para mantener la secuencia
             if (objetoRegaloCerrado != null) objetoRegaloCerrado.SetActive(true);
             if (panelAccesoriosAbierto != null) panelAccesoriosAbierto.SetActive(false);
             if (botonEquipar != null) botonEquipar.SetActive(false);
 
-            // Simplemente activa el objeto del botón cuando aparece el regalo
-            if (botonSiguienteNivel != null) botonSiguienteNivel.SetActive(true);
+            // CORREGIDO: Inicia apagado para forzar la apertura del cofre primero
+            if (botonSiguienteNivel != null) botonSiguienteNivel.SetActive(false);
 
             Debug.Log("Diálogo terminado: aparece el regalo final.");
         }
     }
 
-    // Método limpio que llamará tu botón directamente
+    // Método que llamará tu botón directamente para ir a la Escena 4
     public void IrASiguienteNivel()
     {
         SceneManager.LoadScene("Escena4");

@@ -4351,9 +4351,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 734963354}
     m_Modifications:
+    - target: {fileID: 63374770000009230, guid: 8d437fa40b9a0e14da88a2844caf9f8d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 696262726743319149, guid: 8d437fa40b9a0e14da88a2844caf9f8d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 106
+      objectReference: {fileID: 0}
     - target: {fileID: 944381027898087653, guid: 8d437fa40b9a0e14da88a2844caf9f8d, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1686602315390153479, guid: 8d437fa40b9a0e14da88a2844caf9f8d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 3.485
+      objectReference: {fileID: 0}
+    - target: {fileID: 1686602315390153479, guid: 8d437fa40b9a0e14da88a2844caf9f8d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -110.55
       objectReference: {fileID: 0}
     - target: {fileID: 2368032711513286380, guid: 8d437fa40b9a0e14da88a2844caf9f8d, type: 3}
       propertyPath: m_Colors.m_NormalColor.b
@@ -4541,11 +4557,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5694664172669410162, guid: 8d437fa40b9a0e14da88a2844caf9f8d, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -1281.53
+      value: -1438.55
       objectReference: {fileID: 0}
     - target: {fileID: 5694664172669410162, guid: 8d437fa40b9a0e14da88a2844caf9f8d, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -646.62
+      value: -785.05
       objectReference: {fileID: 0}
     - target: {fileID: 5694664172669410162, guid: 8d437fa40b9a0e14da88a2844caf9f8d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4577,11 +4593,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5694664172669410162, guid: 8d437fa40b9a0e14da88a2844caf9f8d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 640.77
+      value: 719.28
       objectReference: {fileID: 0}
     - target: {fileID: 5694664172669410162, guid: 8d437fa40b9a0e14da88a2844caf9f8d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 323.31
+      value: 392.52
       objectReference: {fileID: 0}
     - target: {fileID: 5694664172669410162, guid: 8d437fa40b9a0e14da88a2844caf9f8d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4603,9 +4619,25 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6419941397043059848, guid: 8d437fa40b9a0e14da88a2844caf9f8d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801439952769783187, guid: 8d437fa40b9a0e14da88a2844caf9f8d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801439952769783187, guid: 8d437fa40b9a0e14da88a2844caf9f8d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7206777859765181106, guid: 8d437fa40b9a0e14da88a2844caf9f8d, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8933219016026756654, guid: 8d437fa40b9a0e14da88a2844caf9f8d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10424,6 +10456,7 @@ MonoBehaviour:
   panelAccesoriosAbierto: {fileID: 830773308}
   botonEquipar: {fileID: 1548034514}
   botonSiguienteNivel: {fileID: 1581349907}
+  nombreSiguienteEscena: Escena4
 --- !u!1 &2005335902
 GameObject:
   m_ObjectHideFlags: 0

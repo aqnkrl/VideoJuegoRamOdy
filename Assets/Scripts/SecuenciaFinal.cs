@@ -7,9 +7,9 @@ public class SecuenciaFinal : MonoBehaviour
     [System.Serializable]
     public class Paso
     {
-        public GameObject[] elementos;      // lo que aparece en este paso
-        public float duracion = 3f;         // segundos que se queda visible
-        public bool desaparecer = true;     // si se desvanece al terminar su tiempo
+        public GameObject[] elementos;      // Lo que aparece en este paso
+        public float duracion = 3f;         // Segundos que se queda visible
+        public bool desaparecer = true;     // Si se desvanece al terminar su tiempo
     }
 
     [Header("Pasos en orden")]
@@ -46,7 +46,7 @@ public class SecuenciaFinal : MonoBehaviour
             foreach (GameObject e in pasos[i].elementos)
                 if (e != null) StartCoroutine(Aparecer(e));
 
-            // El último paso se queda en pantalla
+            // El último paso se queda en pantalla (ideal para el botón de salida)
             if (i == pasos.Length - 1) yield break;
 
             yield return new WaitForSecondsRealtime(pasos[i].duracion);
