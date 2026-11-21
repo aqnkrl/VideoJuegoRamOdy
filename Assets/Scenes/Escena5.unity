@@ -3445,7 +3445,7 @@ MonoBehaviour:
   velocidad: 4
   spriteFrente: {fileID: 5633024920758628973, guid: 0ca30f3a4ab9ef3468b4eada3c3dc608, type: 3}
   spriteEspalda: {fileID: -5685738888344434603, guid: 0ca30f3a4ab9ef3468b4eada3c3dc608, type: 3}
-  spritePerfil: {fileID: 0}
+  spritePerfil: {fileID: 3971272155266414472, guid: 0ca30f3a4ab9ef3468b4eada3c3dc608, type: 3}
   llenadoPorSegundo: 0.05
 --- !u!114 &523810600
 MonoBehaviour:
@@ -5136,7 +5136,7 @@ MonoBehaviour:
   velocidad: 4
   spriteFrente: {fileID: -3932917918404052890, guid: b11d044a5c78bad43943c0b6538522b7, type: 3}
   spriteEspalda: {fileID: 1101571344, guid: b11d044a5c78bad43943c0b6538522b7, type: 3}
-  spritePerfil: {fileID: 0}
+  spritePerfil: {fileID: -1384026563, guid: b11d044a5c78bad43943c0b6538522b7, type: 3}
 --- !u!114 &627237767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6160,7 +6160,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 846701719}
-  - component: {fileID: 846701718}
   m_Layer: 0
   m_Name: GestorRegaloFinal
   m_TagString: Untagged
@@ -6168,25 +6167,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &846701718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 846701717}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcf3fcd05df34694fbbc44c472efaffd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GestorRegaloFinal
-  panelRegalo: {fileID: 0}
-  botonAbrir: {fileID: 0}
-  objetoRegaloCerrado: {fileID: 0}
-  panelAccesoriosAbierto: {fileID: 0}
-  botonEquipar: {fileID: 0}
-  botonSiguienteNivel: {fileID: 0}
-  escenaSiguiente: Escena6
 --- !u!4 &846701719
 Transform:
   m_ObjectHideFlags: 0

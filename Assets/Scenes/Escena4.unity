@@ -2535,7 +2535,7 @@ MonoBehaviour:
   velocidad: 4
   spriteFrente: {fileID: 5633024920758628973, guid: 0ca30f3a4ab9ef3468b4eada3c3dc608, type: 3}
   spriteEspalda: {fileID: -5685738888344434603, guid: 0ca30f3a4ab9ef3468b4eada3c3dc608, type: 3}
-  spritePerfil: {fileID: 0}
+  spritePerfil: {fileID: 3971272155266414472, guid: 0ca30f3a4ab9ef3468b4eada3c3dc608, type: 3}
   llenadoPorSegundo: 0.05
 --- !u!114 &523810600
 MonoBehaviour:
@@ -3510,7 +3510,7 @@ MonoBehaviour:
   velocidad: 4
   spriteFrente: {fileID: -3932917918404052890, guid: b11d044a5c78bad43943c0b6538522b7, type: 3}
   spriteEspalda: {fileID: 1101571344, guid: b11d044a5c78bad43943c0b6538522b7, type: 3}
-  spritePerfil: {fileID: 0}
+  spritePerfil: {fileID: -1384026563, guid: b11d044a5c78bad43943c0b6538522b7, type: 3}
 --- !u!114 &627237767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6349,8 +6349,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -53.20999, y: -408.96997}
-  m_SizeDelta: {x: -1319.69, y: -817.95}
+  m_AnchoredPosition: {x: -52.189972, y: -419.19}
+  m_SizeDelta: {x: -1317.65, y: -838.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1129029688
 MonoBehaviour:
@@ -6403,18 +6403,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogoPersonaje
   panelDialogo: {fileID: 1129029686}
-  textoDialogo: {fileID: 0}
+  textoDialogo: {fileID: 1677145397}
   textoNombre: {fileID: 0}
   botonSiguiente: {fileID: 1825753301}
   textoBoton: {fileID: 615545853}
   nombrePersonaje: Personaje
-  lineas:
-  - "\xA1Hola! Ahora toca cuidar el descanso de Ody y de Ram\xF3n."
-  - "Las barras sobre cada uno muestran su comida, su agua y su sue\xF1o."
-  - Llena sus platos para subir la comida y el agua.
-  - "Cuando tengan sue\xF1o, acu\xE9stalos en su cama: Ram\xF3n con E (se mueve con
-    W, A, S, D) y Ody con O (se mueve con las flechas)."
-  - "Para levantarlos, solo mu\xE9velos otra vez. \xA1Cu\xEDdalos mucho!"
+  lineas: []
   iniciarAlComenzar: 1
   velocidadLetra: 0.03
   teclaContinuar: 32
@@ -9602,7 +9596,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0

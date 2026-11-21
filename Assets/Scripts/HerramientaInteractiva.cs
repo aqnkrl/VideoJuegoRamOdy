@@ -44,6 +44,15 @@ public class HerramientaInteractiva : MonoBehaviour
         fuenteAudio.playOnAwake = false;
     }
 
+    private Camera ObtenerCamara()
+    {
+        if (camaraPrincipal == null)
+        {
+            camaraPrincipal = Camera.main;
+        }
+        return camaraPrincipal;
+    }
+
     void OnMouseDown()
     {
         estaArrastrando = true;
@@ -51,10 +60,11 @@ public class HerramientaInteractiva : MonoBehaviour
 
     void OnMouseDrag()
     {
-        if (estaArrastrando && camaraPrincipal != null)
+        Camera cam = ObtenerCamara();
+        if (estaArrastrando && cam != null)
         {
-            Vector3 posicionMouse = camaraPrincipal.ScreenToWorldPoint(Input.mousePosition);
-            posicionMouse.z = 0f;
+            Vector3 posicionMouse = cam.ScreenToWorldPoint(Input.mousePosition);
+            posicionMouse.z = transform.position.z;
             transform.position = posicionMouse;
         }
     }
@@ -64,13 +74,11 @@ public class HerramientaInteractiva : MonoBehaviour
         DetenerSonido();
         estaArrastrando = false;
 
-        // Si soltaste la herramienta justo encima de Ody, aplica el progreso completo
+        // Si soltaste la herramienta justo encima de Ody, aplica progreso adicional de forma estable
         if (estaTocandoOdy && controlador != null)
         {
-            for (int i = 0; i < 15; i++)
-            {
-                controlador.InteractuarConHerramienta(nombreHerramienta);
-            }
+            float pasoAlSoltar = controlador.valorMaximo * 0.5f;
+            controlador.InteractuarConHerramienta(nombreHerramienta, pasoAlSoltar);
         }
 
         transform.position = posicionInicial;
