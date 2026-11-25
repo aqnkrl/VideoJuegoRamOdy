@@ -394,7 +394,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -78.00006, y: -413.39008}
+  m_AnchoredPosition: {x: -78.00009, y: -413.39014}
   m_SizeDelta: {x: -1278.28, y: -826.78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &26865597
@@ -1140,8 +1140,8 @@ Transform:
   m_GameObject: {fileID: 204955867}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.87, y: -5.6851, z: 0}
-  m_LocalScale: {x: 0.98084766, y: 1.3822516, z: 1}
+  m_LocalPosition: {x: 6.82, y: -5.6905, z: 0}
+  m_LocalScale: {x: 0.98084766, y: 1.3948301, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1925958749}
@@ -1716,16 +1716,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 7, y: -4, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: -8, y: -3, z: 0}
     second:
       serializedVersion: 2
@@ -1867,16 +1857,6 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: 6, y: -3, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 7, y: -3, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 0
@@ -2688,13 +2668,13 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 112
+  - m_RefCount: 110
     m_Data: {fileID: 11400000, guid: 49f68838413c1a343880294d9371ad5c, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 112
+  - m_RefCount: 110
     m_Data: {fileID: 1820383619, guid: 4779aa3bc946f254680f6384170768ed, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 112
+  - m_RefCount: 110
     m_Data:
       e00: 1
       e01: 0
@@ -2713,7 +2693,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 112
+  - m_RefCount: 110
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -3136,7 +3116,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7.03, y: 146.5}
+  m_AnchoredPosition: {x: 24, y: 97}
   m_SizeDelta: {x: 251.81, y: 71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &356097334
@@ -3225,7 +3205,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -0.00005340576, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3326,7 +3306,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 102.25, y: 34.6}
+  m_AnchoredPosition: {x: 126, y: 2.515}
   m_SizeDelta: {x: 204.51, y: 69.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &369853553
@@ -3864,6 +3844,7 @@ MonoBehaviour:
   spriteFrente: {fileID: 2527623925254990841, guid: 27cc9d36939157a48b8b7ba2a5b43a0d, type: 3}
   spriteEspalda: {fileID: -3308186134192706388, guid: 27cc9d36939157a48b8b7ba2a5b43a0d, type: 3}
   spritePerfil: {fileID: -2302782051789302721, guid: 27cc9d36939157a48b8b7ba2a5b43a0d, type: 3}
+  llenadoPorSegundo: 0.05
 --- !u!114 &523810600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7968,7 +7949,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -100, y: 37}
+  m_AnchoredPosition: {x: -100, y: 2.515}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1154616405
@@ -8232,8 +8213,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 640.77, y: 323.31}
-  m_SizeDelta: {x: -1281.53, y: -646.62}
+  m_AnchoredPosition: {x: 703.16, y: 391.6}
+  m_SizeDelta: {x: -1406.33, y: -783.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1207636131
 MonoBehaviour:
@@ -8621,16 +8602,6 @@ Tilemap:
   m_GameObject: {fileID: 1359098100}
   m_Enabled: 1
   m_Tiles:
-  - first: {x: -9, y: -4, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: -8, y: -4, z: 0}
     second:
       serializedVersion: 2
@@ -8784,18 +8755,8 @@ Tilemap:
   - first: {x: 7, y: -4, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -9, y: -3, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -8954,8 +8915,8 @@ Tilemap:
   - first: {x: 7, y: -3, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -9765,19 +9726,19 @@ Tilemap:
   m_TileAssetArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 114
+  - m_RefCount: 2
+    m_Data: {fileID: 11400000, guid: 946f6b200061a29479d58b8a2343d1f7, type: 2}
+  - m_RefCount: 110
     m_Data: {fileID: 11400000, guid: f02df5d5addceeb449e3df88ca5b3d97, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 114
+  - m_RefCount: 2
+    m_Data: {fileID: 960329340, guid: 4779aa3bc946f254680f6384170768ed, type: 3}
+  - m_RefCount: 110
     m_Data: {fileID: 2050907048, guid: 4779aa3bc946f254680f6384170768ed, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 114
+  - m_RefCount: 112
     m_Data:
       e00: 1
       e01: 0
@@ -9796,7 +9757,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 114
+  - m_RefCount: 112
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -9839,7 +9800,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1376844404
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10705,8 +10666,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -20.369995, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 1.3099976, y: -0.000061035156}
+  m_SizeDelta: {x: 22.62, y: -0.00012207}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1463972148
 MonoBehaviour:
@@ -10762,6 +10723,7 @@ MonoBehaviour:
   panelAccesoriosAbierto: {fileID: 770765309}
   botonEquipar: {fileID: 538226165}
   botonSiguienteNivel: {fileID: 1940939529}
+  nombreSiguienteEscena: Escena2
 --- !u!1 &1482330881
 GameObject:
   m_ObjectHideFlags: 0
@@ -11003,7 +10965,7 @@ Transform:
   m_GameObject: {fileID: 1503191534}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.81, y: -5.6817, z: 0}
+  m_LocalPosition: {x: 6.84, y: -5.72, z: 0}
   m_LocalScale: {x: 1.0455, y: 1.3788084, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11511,7 +11473,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1694604817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12191,7 +12153,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 34, y: -165}
+  m_AnchoredPosition: {x: 46, y: -110.55}
   m_SizeDelta: {x: 244.72, y: 47.093}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1899984296

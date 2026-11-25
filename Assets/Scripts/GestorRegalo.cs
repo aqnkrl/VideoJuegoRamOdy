@@ -4,16 +4,19 @@ using UnityEngine.SceneManagement;
 public class GestorRegalo : MonoBehaviour
 {
     public GameObject objetoRegaloCerrado;
-    public GameObject panelAccesoriosAbierto; // Objeto "Objetos" que contiene ambas imágenes (Moño y Pañoleta)
+    public GameObject panelAccesoriosAbierto;
     public GameObject botonEquipar;
     public GameObject botonSiguienteNivel;
+
+    [Header("Configuración de Nivel")]
+    [Tooltip("Escribe exactamente el nombre de la escena a la que debe llevar este botón (Ej: Escena2, Escena3, Escena4)")]
+    public string nombreSiguienteEscena = "Escena2"; // Valor por defecto
 
     public void AbrirRegalo()
     {
         if (objetoRegaloCerrado != null)
             objetoRegaloCerrado.SetActive(false);
 
-        // Muestra el panel con AMBAS imágenes (Moño y Pañoleta juntas)
         if (panelAccesoriosAbierto != null)
             panelAccesoriosAbierto.SetActive(true);
 
@@ -23,22 +26,28 @@ public class GestorRegalo : MonoBehaviour
 
     public void EquiparAccesorios()
     {
-        Debug.Log("¡Accesorios confirmados para el Nivel 2!");
+        Debug.Log("¡Accesorios confirmados!");
 
-        // Oculta la caja y las imágenes del premio
         if (panelAccesoriosAbierto != null)
             panelAccesoriosAbierto.SetActive(false);
 
         if (botonEquipar != null)
             botonEquipar.SetActive(false);
 
-        // Muestra el botón para avanzar de nivel
         if (botonSiguienteNivel != null)
             botonSiguienteNivel.SetActive(true);
     }
 
     public void IrAlSiguienteNivel()
     {
-        SceneManager.LoadScene("Escena2"); // Avanza a la escena del baño
+        // Carga la escena configurada en el inspector de este nivel en específico
+        if (!string.IsNullOrEmpty(nombreSiguienteEscena))
+        {
+            SceneManager.LoadScene(nombreSiguienteEscena);
+        }
+        else
+        {
+            Debug.LogError("¡No se ha configurado el nombre de la siguiente escena en el inspector!");
+        }
     }
 }
