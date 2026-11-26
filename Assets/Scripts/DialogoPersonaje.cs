@@ -19,12 +19,14 @@ public class DialogoPersonaje : MonoBehaviour
     [TextArea(2, 5)]
     public string[] lineas =
     {
-        "¡Hola! Ya estas en el Nivel 3. Ahora toca cuidar el descanso de Ody y de Ramón.",
-        "Las barras sobre cada uno muestran su comida, su agua y su sueño.",
-        "Llena sus platos para subir la comida y el agua.",
-        "Cuando tengan sueño, acuéstalos en su cama: Ramón con E (se mueve con W, A, S, D) y Ody con O (se mueve con las flechas).",
-        "Para levantarlos, solo muévelos otra vez. ¡Cuídalos mucho!"
-    };
+    "¡Hola! Ya estas en el Nivel 3. Ahora toca cuidar el descanso de Ody y de Ramón.",
+    "Las barras sobre cada uno muestran su comida, su agua y su sueño. En Ody también verás su cepillado, y en Ramón su paseo.",
+    "Llena sus platos para subir la comida y el agua.",
+    "A Ody debes cepillarlo: arrastra el cepillo sobre Ody con el mouse y su barra de cepillado se irá llenando.",
+    "A Ramón debes sacarlo a pasear: muévelo con las teclas W, A, S, D y su barra de paseo se irá llenando.",
+    "Cuando tengan sueño, acuéstalos en su cama: Ramón con E (se mueve con W, A, S, D) y Ody con O (se mueve con las flechas).",
+    "Para levantarlos, solo muévelos otra vez. ¡Cuídalos mucho!"
+};
 
     [Header("Opciones")]
     public bool iniciarAlComenzar = true;
